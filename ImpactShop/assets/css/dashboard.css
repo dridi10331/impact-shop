@@ -1,0 +1,437 @@
+/**
+ * DASHBOARD STYLES - COULEURS CONSTRA
+ * Jaune: #ffb600 | Bleu foncé: #1e3149
+ * Date: 2025-11-23 17:10:00
+ * User: dridi10331
+ */
+
+:root {
+    --constra-yellow: #ffb600;
+    --constra-yellow-dark: #e6a500;
+    --constra-blue: #1e3149;
+    --constra-blue-dark: #15202e;
+    --text-color: #5a6570;
+    --heading-color: #282f39;
+    --bg-light: #f9f9f9;
+    --border-light: #ebebeb;
+}
+
+/* ========================================
+   ADMIN VIEW HEADER
+   ======================================== */
+.admin-view header {
+    background: var(--constra-blue) !important;
+    background: linear-gradient(90deg, var(--constra-blue), var(--constra-blue-dark)) !important;
+    color: white !important;
+    padding: 20px 5%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-view header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    font-weight: 800;
+    color: white !important;
+}
+
+.back-btn {
+    background-color: var(--constra-yellow) !important;
+    color: var(--constra-blue) !important;
+    border: none !important;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.back-btn:hover {
+    background-color: var(--constra-yellow-dark) !important;
+    transform: translateY(-2px);
+}
+
+/* ========================================
+   ADMIN CONTAINER
+   ======================================== */
+.admin-container {
+    max-width: 1400px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.admin-header h2 {
+    color: var(--constra-blue) !important;
+    font-weight: 800;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* ========================================
+   NAVIGATION BACKOFFICE
+   ======================================== */
+.admin-nav {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    padding: 12px 25px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-item:hover {
+    background-color: var(--bg-light);
+    color: var(--constra-blue) !important;
+}
+
+.nav-item.active {
+    background-color: var(--constra-blue) !important;
+    color: white !important;
+}
+
+/* ========================================
+   STATS GRID
+   ======================================== */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+/* ========================================
+   STAT CARD
+   ======================================== */
+.stat-card {
+    background: white;
+    border-radius: 3px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: all 0.2s;
+    border-left: 4px solid transparent;
+}
+
+.stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.stat-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    flex-shrink: 0;
+}
+
+.stat-info h3 {
+    font-size: 13px;
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-value {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: var(--heading-color);
+    line-height: 1;
+    margin: 0;
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: #999;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Couleurs des stats */
+.stat-card.revenue {
+    border-left-color: #52c41a;
+}
+
+.stat-card.revenue .stat-icon {
+    background: #52c41a;
+}
+
+.stat-card.monthly {
+    border-left-color: #1890ff;
+}
+
+.stat-card.monthly .stat-icon {
+    background: #1890ff;
+}
+
+.stat-card.orders {
+    border-left-color: var(--constra-yellow);
+}
+
+.stat-card.orders .stat-icon {
+    background: var(--constra-yellow);
+}
+
+.stat-card.pending {
+    border-left-color: #faad14;
+}
+
+.stat-card.pending .stat-icon {
+    background: #faad14;
+}
+
+.stat-card.customers {
+    border-left-color: #722ed1;
+}
+
+.stat-card.customers .stat-icon {
+    background: #722ed1;
+}
+
+.stat-card.average {
+    border-left-color: #eb2f96;
+}
+
+.stat-card.average .stat-icon {
+    background: #eb2f96;
+}
+
+/* ========================================
+   DASHBOARD CARDS
+   ======================================== */
+.dashboard-card {
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.card-header {
+    padding: 20px 25px;
+    border-bottom: 1px solid var(--border-light);
+    background: var(--bg-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card-header h3 {
+    color: var(--constra-blue) !important;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-header h3 i {
+    color: var(--constra-yellow) !important;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.btn-sm {
+    padding: 8px 18px;
+    background-color: var(--constra-blue) !important;
+    color: white !important;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    border: 2px solid var(--constra-blue) !important;
+}
+
+.btn-sm:hover {
+    background-color: var(--constra-yellow) !important;
+    border-color: var(--constra-yellow) !important;
+    color: var(--constra-blue) !important;
+    transform: translateY(-2px);
+}
+
+/* ========================================
+   TABLES
+   ======================================== */
+.mini-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.mini-table thead {
+    background-color: var(--constra-blue) !important;
+    color: white;
+}
+
+.mini-table th {
+    padding: 12px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.mini-table td {
+    padding: 15px 12px;
+    border-bottom: 1px solid var(--border-light);
+    font-size: 14px;
+}
+
+.mini-table tbody tr:hover {
+    background-color: var(--bg-light);
+}
+
+.mini-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.mini-table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ========================================
+   BADGES
+   ======================================== */
+.badge {
+    padding: 5px 12px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: inline-block;
+}
+
+.badge-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.badge-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.badge-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.badge-default {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.badge-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+.badge-primary {
+    background-color: var(--constra-yellow) !important;
+    color: var(--constra-blue) !important;
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+@media (max-width: 1024px) {
+    .stats-grid {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-nav {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .stat-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stat-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 1.8rem;
+    }
+
+    .stat-value {
+        font-size: 1.8rem;
+    }
+
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .mini-table th,
+    .mini-table td {
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+
+    .mini-table img {
+        width: 40px;
+        height: 40px;
+    }
+}

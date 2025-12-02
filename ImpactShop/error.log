@@ -1,0 +1,2382 @@
+[23-Nov-2025 18:49:38 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 18:49:38 Europe/Berlin] Timestamp: 2025-11-23 18:49:38
+[23-Nov-2025 18:49:38 Europe/Berlin] Controller: order
+[23-Nov-2025 18:49:38 Europe/Berlin] Action: create
+[23-Nov-2025 18:49:38 Europe/Berlin] Method: POST
+[23-Nov-2025 18:49:38 Europe/Berlin] Executing: OrderController->create()
+[23-Nov-2025 18:49:38 Europe/Berlin] === ORDER CREATE METHOD CALLED ===
+[23-Nov-2025 18:49:38 Europe/Berlin] POST Data: Array
+(
+    [cart_data] => [{"id":5,"name":"Kit de Fournitures Scolaires","price":25,"image":"school-kit.jpg","quantity":1}]
+    [total_amount] => 25.00
+    [first_name] => efzdf
+    [last_name] => dsfsdf
+    [email] => sdfs@gmailcom
+    [phone] => +22333333333
+    [payment_method] => paypal
+)
+
+[23-Nov-2025 18:49:38 Europe/Berlin] Customer Data: Array
+(
+    [first_name] => efzdf
+    [last_name] => dsfsdf
+    [email] => sdfs@gmailcom
+    [phone] => +22333333333
+)
+
+[23-Nov-2025 18:49:38 Europe/Berlin] Cart JSON: [{"id":5,"name":"Kit de Fournitures Scolaires","price":25,"image":"school-kit.jpg","quantity":1}]
+[23-Nov-2025 18:49:38 Europe/Berlin] Cart Data: Array
+(
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [name] => Kit de Fournitures Scolaires
+                    [price] => 25
+                    [image] => school-kit.jpg
+                    [quantity] => 1
+                )
+
+        )
+
+    [total] => 25
+    [payment_method] => paypal
+)
+
+[23-Nov-2025 18:49:38 Europe/Berlin] Validation Errors: Array
+(
+    [0] => L'adresse email n'est pas valide.
+)
+
+[23-Nov-2025 18:49:38 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 18:49:38 Europe/Berlin] Timestamp: 2025-11-23 18:49:38
+[23-Nov-2025 18:49:38 Europe/Berlin] Controller: order
+[23-Nov-2025 18:49:38 Europe/Berlin] Action: checkout
+[23-Nov-2025 18:49:38 Europe/Berlin] Method: GET
+[23-Nov-2025 18:49:38 Europe/Berlin] Executing: OrderController->checkout()
+[23-Nov-2025 18:49:38 Europe/Berlin] Action executed successfully
+[23-Nov-2025 18:49:49 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 18:49:49 Europe/Berlin] Timestamp: 2025-11-23 18:49:49
+[23-Nov-2025 18:49:49 Europe/Berlin] Controller: order
+[23-Nov-2025 18:49:49 Europe/Berlin] Action: create
+[23-Nov-2025 18:49:49 Europe/Berlin] Method: POST
+[23-Nov-2025 18:49:49 Europe/Berlin] Executing: OrderController->create()
+[23-Nov-2025 18:49:49 Europe/Berlin] === ORDER CREATE METHOD CALLED ===
+[23-Nov-2025 18:49:49 Europe/Berlin] POST Data: Array
+(
+    [cart_data] => [{"id":5,"name":"Kit de Fournitures Scolaires","price":25,"image":"school-kit.jpg","quantity":1}]
+    [total_amount] => 25.00
+    [first_name] => efzdf
+    [last_name] => dsfsdf
+    [email] => sdfs@gmailcom
+    [phone] => +22333333333
+    [payment_method] => paypal
+)
+
+[23-Nov-2025 18:49:49 Europe/Berlin] Customer Data: Array
+(
+    [first_name] => efzdf
+    [last_name] => dsfsdf
+    [email] => sdfs@gmailcom
+    [phone] => +22333333333
+)
+
+[23-Nov-2025 18:49:49 Europe/Berlin] Cart JSON: [{"id":5,"name":"Kit de Fournitures Scolaires","price":25,"image":"school-kit.jpg","quantity":1}]
+[23-Nov-2025 18:49:49 Europe/Berlin] Cart Data: Array
+(
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [name] => Kit de Fournitures Scolaires
+                    [price] => 25
+                    [image] => school-kit.jpg
+                    [quantity] => 1
+                )
+
+        )
+
+    [total] => 25
+    [payment_method] => paypal
+)
+
+[23-Nov-2025 18:49:49 Europe/Berlin] Validation Errors: Array
+(
+    [0] => L'adresse email n'est pas valide.
+)
+
+[23-Nov-2025 18:49:49 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 18:49:49 Europe/Berlin] Timestamp: 2025-11-23 18:49:49
+[23-Nov-2025 18:49:49 Europe/Berlin] Controller: order
+[23-Nov-2025 18:49:49 Europe/Berlin] Action: checkout
+[23-Nov-2025 18:49:49 Europe/Berlin] Method: GET
+[23-Nov-2025 18:49:49 Europe/Berlin] Executing: OrderController->checkout()
+[23-Nov-2025 18:49:49 Europe/Berlin] Action executed successfully
+[23-Nov-2025 18:50:02 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 18:50:02 Europe/Berlin] Timestamp: 2025-11-23 18:50:02
+[23-Nov-2025 18:50:02 Europe/Berlin] Controller: order
+[23-Nov-2025 18:50:02 Europe/Berlin] Action: create
+[23-Nov-2025 18:50:02 Europe/Berlin] Method: POST
+[23-Nov-2025 18:50:02 Europe/Berlin] Executing: OrderController->create()
+[23-Nov-2025 18:50:02 Europe/Berlin] === ORDER CREATE METHOD CALLED ===
+[23-Nov-2025 18:50:02 Europe/Berlin] POST Data: Array
+(
+    [cart_data] => [{"id":5,"name":"Kit de Fournitures Scolaires","price":25,"image":"school-kit.jpg","quantity":1}]
+    [total_amount] => 25.00
+    [first_name] => efzdf
+    [last_name] => dsfsdf
+    [email] => ahmedomardridi@gmailcom
+    [phone] => +22333333333
+    [payment_method] => paypal
+)
+
+[23-Nov-2025 18:50:02 Europe/Berlin] Customer Data: Array
+(
+    [first_name] => efzdf
+    [last_name] => dsfsdf
+    [email] => ahmedomardridi@gmailcom
+    [phone] => +22333333333
+)
+
+[23-Nov-2025 18:50:02 Europe/Berlin] Cart JSON: [{"id":5,"name":"Kit de Fournitures Scolaires","price":25,"image":"school-kit.jpg","quantity":1}]
+[23-Nov-2025 18:50:02 Europe/Berlin] Cart Data: Array
+(
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [name] => Kit de Fournitures Scolaires
+                    [price] => 25
+                    [image] => school-kit.jpg
+                    [quantity] => 1
+                )
+
+        )
+
+    [total] => 25
+    [payment_method] => paypal
+)
+
+[23-Nov-2025 18:50:02 Europe/Berlin] Validation Errors: Array
+(
+    [0] => L'adresse email n'est pas valide.
+)
+
+[23-Nov-2025 18:50:02 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 18:50:02 Europe/Berlin] Timestamp: 2025-11-23 18:50:02
+[23-Nov-2025 18:50:02 Europe/Berlin] Controller: order
+[23-Nov-2025 18:50:02 Europe/Berlin] Action: checkout
+[23-Nov-2025 18:50:02 Europe/Berlin] Method: GET
+[23-Nov-2025 18:50:02 Europe/Berlin] Executing: OrderController->checkout()
+[23-Nov-2025 18:50:02 Europe/Berlin] Action executed successfully
+[23-Nov-2025 18:50:06 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 18:50:06 Europe/Berlin] Timestamp: 2025-11-23 18:50:06
+[23-Nov-2025 18:50:06 Europe/Berlin] Controller: order
+[23-Nov-2025 18:50:06 Europe/Berlin] Action: create
+[23-Nov-2025 18:50:06 Europe/Berlin] Method: POST
+[23-Nov-2025 18:50:06 Europe/Berlin] Executing: OrderController->create()
+[23-Nov-2025 18:50:06 Europe/Berlin] === ORDER CREATE METHOD CALLED ===
+[23-Nov-2025 18:50:06 Europe/Berlin] POST Data: Array
+(
+    [cart_data] => [{"id":5,"name":"Kit de Fournitures Scolaires","price":25,"image":"school-kit.jpg","quantity":1}]
+    [total_amount] => 25.00
+    [first_name] => dsds
+    [last_name] => dsdfds
+    [email] => aa@gmail.com
+    [phone] => +21655556655
+    [payment_method] => paypal
+)
+
+[23-Nov-2025 18:50:06 Europe/Berlin] Customer Data: Array
+(
+    [first_name] => dsds
+    [last_name] => dsdfds
+    [email] => aa@gmail.com
+    [phone] => +21655556655
+)
+
+[23-Nov-2025 18:50:06 Europe/Berlin] Cart JSON: [{"id":5,"name":"Kit de Fournitures Scolaires","price":25,"image":"school-kit.jpg","quantity":1}]
+[23-Nov-2025 18:50:06 Europe/Berlin] Cart Data: Array
+(
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [name] => Kit de Fournitures Scolaires
+                    [price] => 25
+                    [image] => school-kit.jpg
+                    [quantity] => 1
+                )
+
+        )
+
+    [total] => 25
+    [payment_method] => paypal
+)
+
+[23-Nov-2025 18:50:06 Europe/Berlin] Creating order...
+[23-Nov-2025 18:50:06 Europe/Berlin] Order created successfully with ID: 9
+[23-Nov-2025 18:50:06 Europe/Berlin] Order status updated to 'paid'
+[23-Nov-2025 18:50:07 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 18:50:07 Europe/Berlin] Timestamp: 2025-11-23 18:50:07
+[23-Nov-2025 18:50:07 Europe/Berlin] Controller: order
+[23-Nov-2025 18:50:07 Europe/Berlin] Action: confirmation
+[23-Nov-2025 18:50:07 Europe/Berlin] Method: GET
+[23-Nov-2025 18:50:07 Europe/Berlin] Executing: OrderController->confirmation()
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Undefined variable $orderDetails in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 131
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 131
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Deprecated:  str_pad(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 131
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Undefined variable $orderDetails in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 139
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 139
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Undefined variable $orderDetails in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 139
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 139
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Undefined variable $orderDetails in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 144
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 144
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 144
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Undefined variable $orderDetails in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 149
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 149
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 149
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Undefined variable $orderDetails in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 154
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 154
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 154
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Undefined variable $orderDetails in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 159
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 159
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Deprecated:  strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 159
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Undefined variable $orderDetails in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 171
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 171
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Undefined variable $orderDetails in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 171
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 171
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Undefined variable $orderDetails in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 180
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 180
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 180
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Undefined variable $orderDetails in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 198
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 198
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 198
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Undefined variable $orderDetails in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 204
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 204
+[23-Nov-2025 18:50:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\ImpactShop\views\shop\order_confirmation.php on line 204
+[23-Nov-2025 18:50:07 Europe/Berlin] Action executed successfully
+[23-Nov-2025 18:52:20 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 18:52:20 Europe/Berlin] Timestamp: 2025-11-23 18:52:20
+[23-Nov-2025 18:52:20 Europe/Berlin] Controller: order
+[23-Nov-2025 18:52:20 Europe/Berlin] Action: confirmation
+[23-Nov-2025 18:52:20 Europe/Berlin] Method: GET
+[23-Nov-2025 18:52:20 Europe/Berlin] Executing: OrderController->confirmation()
+[23-Nov-2025 18:52:20 Europe/Berlin] === CONFIRMATION PAGE ===
+[23-Nov-2025 18:52:20 Europe/Berlin] Order ID: 9
+[23-Nov-2025 18:52:20 Europe/Berlin] Order Details: Array
+(
+    [id] => 9
+    [customer_id] => 8
+    [total_amount] => 25.00
+    [status] => paid
+    [payment_method] => paypal
+    [created_at] => 2025-11-23 18:50:06
+    [updated_at] => 2025-11-23 18:50:06
+    [first_name] => dsds
+    [last_name] => dsdfds
+    [email] => aa@gmail.com
+    [phone] => +21655556655
+)
+
+[23-Nov-2025 18:52:20 Europe/Berlin] Order Items: Array
+(
+    [0] => Array
+        (
+            [id] => 13
+            [order_id] => 9
+            [product_id] => 5
+            [quantity] => 1
+            [unit_price] => 25.00
+            [subtotal] => 25.00
+            [name_fr] => Kit de Fournitures Scolaires
+            [name_en] => School Supplies Kit
+            [img_name] => school-kit.jpg
+        )
+
+)
+
+[23-Nov-2025 18:52:20 Europe/Berlin] Final Order Details with items: Array
+(
+    [id] => 9
+    [customer_id] => 8
+    [total_amount] => 25.00
+    [status] => paid
+    [payment_method] => paypal
+    [created_at] => 2025-11-23 18:50:06
+    [updated_at] => 2025-11-23 18:50:06
+    [first_name] => dsds
+    [last_name] => dsdfds
+    [email] => aa@gmail.com
+    [phone] => +21655556655
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 13
+                    [order_id] => 9
+                    [product_id] => 5
+                    [quantity] => 1
+                    [unit_price] => 25.00
+                    [subtotal] => 25.00
+                    [name_fr] => Kit de Fournitures Scolaires
+                    [name_en] => School Supplies Kit
+                    [img_name] => school-kit.jpg
+                )
+
+        )
+
+)
+
+[23-Nov-2025 18:52:21 Europe/Berlin] Action executed successfully
+[23-Nov-2025 18:52:52 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 18:52:52 Europe/Berlin] Timestamp: 2025-11-23 18:52:52
+[23-Nov-2025 18:52:52 Europe/Berlin] Controller: order
+[23-Nov-2025 18:52:52 Europe/Berlin] Action: view
+[23-Nov-2025 18:52:52 Europe/Berlin] Method: GET
+[23-Nov-2025 18:52:52 Europe/Berlin] Executing: OrderController->view()
+[23-Nov-2025 18:52:53 Europe/Berlin] PHP Warning:  include(C:\xampp\htdocs\ImpactShop\controllers/../views/admin/order_details.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ImpactShop\controllers\OrderController.php on line 193
+[23-Nov-2025 18:52:53 Europe/Berlin] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\ImpactShop\controllers/../views/admin/order_details.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ImpactShop\controllers\OrderController.php on line 193
+[23-Nov-2025 18:52:53 Europe/Berlin] Action executed successfully
+[23-Nov-2025 18:54:42 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 18:54:42 Europe/Berlin] Timestamp: 2025-11-23 18:54:42
+[23-Nov-2025 18:54:42 Europe/Berlin] Controller: order
+[23-Nov-2025 18:54:42 Europe/Berlin] Action: view
+[23-Nov-2025 18:54:42 Europe/Berlin] Method: GET
+[23-Nov-2025 18:54:42 Europe/Berlin] Executing: OrderController->view()
+[23-Nov-2025 18:54:42 Europe/Berlin] Action executed successfully
+[23-Nov-2025 18:54:46 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 18:54:46 Europe/Berlin] Timestamp: 2025-11-23 18:54:46
+[23-Nov-2025 18:54:46 Europe/Berlin] Controller: product
+[23-Nov-2025 18:54:46 Europe/Berlin] Action: index
+[23-Nov-2025 18:54:46 Europe/Berlin] Method: GET
+[23-Nov-2025 18:54:46 Europe/Berlin] Executing: ProductController->index()
+[23-Nov-2025 18:54:46 Europe/Berlin] Action executed successfully
+[23-Nov-2025 18:54:50 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 18:54:50 Europe/Berlin] Timestamp: 2025-11-23 18:54:50
+[23-Nov-2025 18:54:50 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 18:54:50 Europe/Berlin] Action: index
+[23-Nov-2025 18:54:50 Europe/Berlin] Method: GET
+[23-Nov-2025 18:54:50 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 18:54:50 Europe/Berlin] Action executed successfully
+[23-Nov-2025 18:54:51 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 18:54:51 Europe/Berlin] Timestamp: 2025-11-23 18:54:51
+[23-Nov-2025 18:54:51 Europe/Berlin] Controller: product
+[23-Nov-2025 18:54:51 Europe/Berlin] Action: index
+[23-Nov-2025 18:54:51 Europe/Berlin] Method: GET
+[23-Nov-2025 18:54:51 Europe/Berlin] Executing: ProductController->index()
+[23-Nov-2025 18:54:51 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:02:25 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:02:25 Europe/Berlin] Timestamp: 2025-11-23 19:02:25
+[23-Nov-2025 19:02:25 Europe/Berlin] Controller: product
+[23-Nov-2025 19:02:25 Europe/Berlin] Action: index
+[23-Nov-2025 19:02:25 Europe/Berlin] Method: GET
+[23-Nov-2025 19:02:25 Europe/Berlin] Executing: ProductController->index()
+[23-Nov-2025 19:02:25 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:02:26 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:02:26 Europe/Berlin] Timestamp: 2025-11-23 19:02:26
+[23-Nov-2025 19:02:26 Europe/Berlin] Controller: order
+[23-Nov-2025 19:02:26 Europe/Berlin] Action: index
+[23-Nov-2025 19:02:26 Europe/Berlin] Method: GET
+[23-Nov-2025 19:02:26 Europe/Berlin] Executing: OrderController->index()
+[23-Nov-2025 19:02:26 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:02:27 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:02:27 Europe/Berlin] Timestamp: 2025-11-23 19:02:27
+[23-Nov-2025 19:02:27 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:02:27 Europe/Berlin] Action: index
+[23-Nov-2025 19:02:27 Europe/Berlin] Method: GET
+[23-Nov-2025 19:02:27 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:02:27 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:02:27 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:02:27 Europe/Berlin] Timestamp: 2025-11-23 19:02:27
+[23-Nov-2025 19:02:27 Europe/Berlin] Controller: order
+[23-Nov-2025 19:02:27 Europe/Berlin] Action: index
+[23-Nov-2025 19:02:27 Europe/Berlin] Method: GET
+[23-Nov-2025 19:02:27 Europe/Berlin] Executing: OrderController->index()
+[23-Nov-2025 19:02:27 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:02:28 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:02:28 Europe/Berlin] Timestamp: 2025-11-23 19:02:28
+[23-Nov-2025 19:02:28 Europe/Berlin] Controller: product
+[23-Nov-2025 19:02:28 Europe/Berlin] Action: index
+[23-Nov-2025 19:02:28 Europe/Berlin] Method: GET
+[23-Nov-2025 19:02:28 Europe/Berlin] Executing: ProductController->index()
+[23-Nov-2025 19:02:28 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:02:28 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:02:28 Europe/Berlin] Timestamp: 2025-11-23 19:02:28
+[23-Nov-2025 19:02:28 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:02:28 Europe/Berlin] Action: index
+[23-Nov-2025 19:02:28 Europe/Berlin] Method: GET
+[23-Nov-2025 19:02:28 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:02:28 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:02:29 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:02:29 Europe/Berlin] Timestamp: 2025-11-23 19:02:29
+[23-Nov-2025 19:02:29 Europe/Berlin] Controller: order
+[23-Nov-2025 19:02:29 Europe/Berlin] Action: index
+[23-Nov-2025 19:02:29 Europe/Berlin] Method: GET
+[23-Nov-2025 19:02:29 Europe/Berlin] Executing: OrderController->index()
+[23-Nov-2025 19:02:29 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:02:30 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:02:30 Europe/Berlin] Timestamp: 2025-11-23 19:02:30
+[23-Nov-2025 19:02:30 Europe/Berlin] Controller: order
+[23-Nov-2025 19:02:30 Europe/Berlin] Action: view
+[23-Nov-2025 19:02:30 Europe/Berlin] Method: GET
+[23-Nov-2025 19:02:30 Europe/Berlin] Executing: OrderController->view()
+[23-Nov-2025 19:02:30 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:02:35 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:02:35 Europe/Berlin] Timestamp: 2025-11-23 19:02:35
+[23-Nov-2025 19:02:35 Europe/Berlin] Controller: home
+[23-Nov-2025 19:02:35 Europe/Berlin] Action: index
+[23-Nov-2025 19:02:35 Europe/Berlin] Method: GET
+[23-Nov-2025 19:02:35 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:02:35 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:02:35 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:02:35 Europe/Berlin] Timestamp: 2025-11-23 19:02:35
+[23-Nov-2025 19:02:35 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:02:35 Europe/Berlin] Action: index
+[23-Nov-2025 19:02:35 Europe/Berlin] Method: GET
+[23-Nov-2025 19:02:35 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:02:35 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:02:38 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:02:38 Europe/Berlin] Timestamp: 2025-11-23 19:02:38
+[23-Nov-2025 19:02:38 Europe/Berlin] Controller: product
+[23-Nov-2025 19:02:38 Europe/Berlin] Action: shop
+[23-Nov-2025 19:02:38 Europe/Berlin] Method: GET
+[23-Nov-2025 19:02:38 Europe/Berlin] Executing: ProductController->shop()
+[23-Nov-2025 19:02:38 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:02:39 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:02:39 Europe/Berlin] Timestamp: 2025-11-23 19:02:39
+[23-Nov-2025 19:02:39 Europe/Berlin] Controller: home
+[23-Nov-2025 19:02:39 Europe/Berlin] Action: index
+[23-Nov-2025 19:02:39 Europe/Berlin] Method: GET
+[23-Nov-2025 19:02:39 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:02:39 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:05:40 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:05:40 Europe/Berlin] Timestamp: 2025-11-23 19:05:40
+[23-Nov-2025 19:05:40 Europe/Berlin] Controller: home
+[23-Nov-2025 19:05:40 Europe/Berlin] Action: index
+[23-Nov-2025 19:05:40 Europe/Berlin] Method: GET
+[23-Nov-2025 19:05:40 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:05:40 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:05:40 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:05:40 Europe/Berlin] Timestamp: 2025-11-23 19:05:40
+[23-Nov-2025 19:05:40 Europe/Berlin] Controller: home
+[23-Nov-2025 19:05:40 Europe/Berlin] Action: index
+[23-Nov-2025 19:05:40 Europe/Berlin] Method: GET
+[23-Nov-2025 19:05:40 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:05:40 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:05:40 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:05:40 Europe/Berlin] Timestamp: 2025-11-23 19:05:40
+[23-Nov-2025 19:05:40 Europe/Berlin] Controller: home
+[23-Nov-2025 19:05:40 Europe/Berlin] Action: index
+[23-Nov-2025 19:05:40 Europe/Berlin] Method: GET
+[23-Nov-2025 19:05:40 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:05:40 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:05:41 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:05:41 Europe/Berlin] Timestamp: 2025-11-23 19:05:41
+[23-Nov-2025 19:05:41 Europe/Berlin] Controller: home
+[23-Nov-2025 19:05:41 Europe/Berlin] Action: index
+[23-Nov-2025 19:05:41 Europe/Berlin] Method: GET
+[23-Nov-2025 19:05:41 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:05:41 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:06:19 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:06:19 Europe/Berlin] Timestamp: 2025-11-23 19:06:19
+[23-Nov-2025 19:06:19 Europe/Berlin] Controller: home
+[23-Nov-2025 19:06:19 Europe/Berlin] Action: index
+[23-Nov-2025 19:06:19 Europe/Berlin] Method: GET
+[23-Nov-2025 19:06:19 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:06:19 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:06:19 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:06:19 Europe/Berlin] Timestamp: 2025-11-23 19:06:19
+[23-Nov-2025 19:06:19 Europe/Berlin] Controller: home
+[23-Nov-2025 19:06:19 Europe/Berlin] Action: index
+[23-Nov-2025 19:06:19 Europe/Berlin] Method: GET
+[23-Nov-2025 19:06:19 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:06:19 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:06:20 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:06:20 Europe/Berlin] Timestamp: 2025-11-23 19:06:20
+[23-Nov-2025 19:06:20 Europe/Berlin] Controller: home
+[23-Nov-2025 19:06:20 Europe/Berlin] Action: index
+[23-Nov-2025 19:06:20 Europe/Berlin] Method: GET
+[23-Nov-2025 19:06:20 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:06:20 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:06:20 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:06:20 Europe/Berlin] Timestamp: 2025-11-23 19:06:20
+[23-Nov-2025 19:06:20 Europe/Berlin] Controller: home
+[23-Nov-2025 19:06:20 Europe/Berlin] Action: index
+[23-Nov-2025 19:06:20 Europe/Berlin] Method: GET
+[23-Nov-2025 19:06:20 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:06:20 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:06:20 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:06:20 Europe/Berlin] Timestamp: 2025-11-23 19:06:20
+[23-Nov-2025 19:06:20 Europe/Berlin] Controller: product
+[23-Nov-2025 19:06:20 Europe/Berlin] Action: shop
+[23-Nov-2025 19:06:20 Europe/Berlin] Method: GET
+[23-Nov-2025 19:06:20 Europe/Berlin] Executing: ProductController->shop()
+[23-Nov-2025 19:06:20 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:06:21 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:06:21 Europe/Berlin] Timestamp: 2025-11-23 19:06:21
+[23-Nov-2025 19:06:21 Europe/Berlin] Controller: product
+[23-Nov-2025 19:06:21 Europe/Berlin] Action: shop
+[23-Nov-2025 19:06:21 Europe/Berlin] Method: GET
+[23-Nov-2025 19:06:21 Europe/Berlin] Executing: ProductController->shop()
+[23-Nov-2025 19:06:21 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:06:22 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:06:22 Europe/Berlin] Timestamp: 2025-11-23 19:06:22
+[23-Nov-2025 19:06:22 Europe/Berlin] Controller: home
+[23-Nov-2025 19:06:22 Europe/Berlin] Action: index
+[23-Nov-2025 19:06:22 Europe/Berlin] Method: GET
+[23-Nov-2025 19:06:22 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:06:22 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:06:38 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:06:38 Europe/Berlin] Timestamp: 2025-11-23 19:06:38
+[23-Nov-2025 19:06:38 Europe/Berlin] Controller: home
+[23-Nov-2025 19:06:38 Europe/Berlin] Action: index
+[23-Nov-2025 19:06:38 Europe/Berlin] Method: GET
+[23-Nov-2025 19:06:38 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:06:39 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:06:39 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:06:39 Europe/Berlin] Timestamp: 2025-11-23 19:06:39
+[23-Nov-2025 19:06:39 Europe/Berlin] Controller: home
+[23-Nov-2025 19:06:39 Europe/Berlin] Action: index
+[23-Nov-2025 19:06:39 Europe/Berlin] Method: GET
+[23-Nov-2025 19:06:39 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:06:39 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:06:39 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:06:39 Europe/Berlin] Timestamp: 2025-11-23 19:06:39
+[23-Nov-2025 19:06:39 Europe/Berlin] Controller: home
+[23-Nov-2025 19:06:39 Europe/Berlin] Action: index
+[23-Nov-2025 19:06:39 Europe/Berlin] Method: GET
+[23-Nov-2025 19:06:39 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:06:39 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:06:40 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:06:40 Europe/Berlin] Timestamp: 2025-11-23 19:06:40
+[23-Nov-2025 19:06:40 Europe/Berlin] Controller: home
+[23-Nov-2025 19:06:40 Europe/Berlin] Action: index
+[23-Nov-2025 19:06:40 Europe/Berlin] Method: GET
+[23-Nov-2025 19:06:40 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:06:40 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:06:42 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:06:42 Europe/Berlin] Timestamp: 2025-11-23 19:06:42
+[23-Nov-2025 19:06:42 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:06:42 Europe/Berlin] Action: index
+[23-Nov-2025 19:06:42 Europe/Berlin] Method: GET
+[23-Nov-2025 19:06:42 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:06:42 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:07:57 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:07:57 Europe/Berlin] Timestamp: 2025-11-23 19:07:57
+[23-Nov-2025 19:07:57 Europe/Berlin] Controller: home
+[23-Nov-2025 19:07:57 Europe/Berlin] Action: index
+[23-Nov-2025 19:07:57 Europe/Berlin] Method: GET
+[23-Nov-2025 19:07:57 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:07:57 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:04 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:04 Europe/Berlin] Timestamp: 2025-11-23 19:08:04
+[23-Nov-2025 19:08:04 Europe/Berlin] Controller: home
+[23-Nov-2025 19:08:04 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:04 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:04 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:08:04 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:04 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:04 Europe/Berlin] Timestamp: 2025-11-23 19:08:04
+[23-Nov-2025 19:08:04 Europe/Berlin] Controller: home
+[23-Nov-2025 19:08:04 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:04 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:04 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:08:04 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:04 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:04 Europe/Berlin] Timestamp: 2025-11-23 19:08:04
+[23-Nov-2025 19:08:04 Europe/Berlin] Controller: home
+[23-Nov-2025 19:08:04 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:04 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:04 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:08:04 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:05 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:05 Europe/Berlin] Timestamp: 2025-11-23 19:08:05
+[23-Nov-2025 19:08:05 Europe/Berlin] Controller: home
+[23-Nov-2025 19:08:05 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:05 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:05 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:08:05 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:05 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:05 Europe/Berlin] Timestamp: 2025-11-23 19:08:05
+[23-Nov-2025 19:08:05 Europe/Berlin] Controller: home
+[23-Nov-2025 19:08:05 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:05 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:05 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:08:05 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:05 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:05 Europe/Berlin] Timestamp: 2025-11-23 19:08:05
+[23-Nov-2025 19:08:05 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:08:05 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:05 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:05 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:08:05 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:08 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:08 Europe/Berlin] Timestamp: 2025-11-23 19:08:08
+[23-Nov-2025 19:08:08 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:08:08 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:08 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:08 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:08:08 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:09 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:09 Europe/Berlin] Timestamp: 2025-11-23 19:08:09
+[23-Nov-2025 19:08:09 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:08:09 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:09 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:09 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:08:09 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:09 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:09 Europe/Berlin] Timestamp: 2025-11-23 19:08:09
+[23-Nov-2025 19:08:09 Europe/Berlin] Controller: product
+[23-Nov-2025 19:08:09 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:09 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:09 Europe/Berlin] Executing: ProductController->index()
+[23-Nov-2025 19:08:09 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:10 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:10 Europe/Berlin] Timestamp: 2025-11-23 19:08:10
+[23-Nov-2025 19:08:10 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:08:10 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:10 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:10 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:08:10 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:11 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:11 Europe/Berlin] Timestamp: 2025-11-23 19:08:11
+[23-Nov-2025 19:08:11 Europe/Berlin] Controller: order
+[23-Nov-2025 19:08:11 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:11 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:11 Europe/Berlin] Executing: OrderController->index()
+[23-Nov-2025 19:08:11 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:11 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:11 Europe/Berlin] Timestamp: 2025-11-23 19:08:11
+[23-Nov-2025 19:08:11 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:08:11 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:11 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:11 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:08:11 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:11 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:11 Europe/Berlin] Timestamp: 2025-11-23 19:08:11
+[23-Nov-2025 19:08:11 Europe/Berlin] Controller: home
+[23-Nov-2025 19:08:11 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:11 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:11 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:08:11 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:17 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:17 Europe/Berlin] Timestamp: 2025-11-23 19:08:17
+[23-Nov-2025 19:08:17 Europe/Berlin] Controller: product
+[23-Nov-2025 19:08:17 Europe/Berlin] Action: shop
+[23-Nov-2025 19:08:17 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:17 Europe/Berlin] Executing: ProductController->shop()
+[23-Nov-2025 19:08:17 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:20 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:20 Europe/Berlin] Timestamp: 2025-11-23 19:08:20
+[23-Nov-2025 19:08:20 Europe/Berlin] Controller: home
+[23-Nov-2025 19:08:20 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:20 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:20 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:08:20 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:35 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:35 Europe/Berlin] Timestamp: 2025-11-23 19:08:35
+[23-Nov-2025 19:08:35 Europe/Berlin] Controller: home
+[23-Nov-2025 19:08:35 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:35 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:35 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:08:35 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:37 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:37 Europe/Berlin] Timestamp: 2025-11-23 19:08:37
+[23-Nov-2025 19:08:37 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:08:37 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:37 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:37 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:08:37 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:38 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:38 Europe/Berlin] Timestamp: 2025-11-23 19:08:38
+[23-Nov-2025 19:08:38 Europe/Berlin] Controller: home
+[23-Nov-2025 19:08:38 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:38 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:38 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:08:38 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:08:53 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:08:53 Europe/Berlin] Timestamp: 2025-11-23 19:08:53
+[23-Nov-2025 19:08:53 Europe/Berlin] Controller: home
+[23-Nov-2025 19:08:53 Europe/Berlin] Action: index
+[23-Nov-2025 19:08:53 Europe/Berlin] Method: GET
+[23-Nov-2025 19:08:53 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:08:53 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:09:02 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:09:02 Europe/Berlin] Timestamp: 2025-11-23 19:09:02
+[23-Nov-2025 19:09:02 Europe/Berlin] Controller: home
+[23-Nov-2025 19:09:02 Europe/Berlin] Action: index
+[23-Nov-2025 19:09:02 Europe/Berlin] Method: GET
+[23-Nov-2025 19:09:02 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:09:02 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:09:02 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:09:02 Europe/Berlin] Timestamp: 2025-11-23 19:09:02
+[23-Nov-2025 19:09:02 Europe/Berlin] Controller: product
+[23-Nov-2025 19:09:02 Europe/Berlin] Action: shop
+[23-Nov-2025 19:09:02 Europe/Berlin] Method: GET
+[23-Nov-2025 19:09:02 Europe/Berlin] Executing: ProductController->shop()
+[23-Nov-2025 19:09:02 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:09:04 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:09:04 Europe/Berlin] Timestamp: 2025-11-23 19:09:04
+[23-Nov-2025 19:09:04 Europe/Berlin] Controller: home
+[23-Nov-2025 19:09:04 Europe/Berlin] Action: index
+[23-Nov-2025 19:09:04 Europe/Berlin] Method: GET
+[23-Nov-2025 19:09:04 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:09:04 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:09:06 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:09:06 Europe/Berlin] Timestamp: 2025-11-23 19:09:06
+[23-Nov-2025 19:09:06 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:09:06 Europe/Berlin] Action: index
+[23-Nov-2025 19:09:06 Europe/Berlin] Method: GET
+[23-Nov-2025 19:09:06 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:09:06 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:09:08 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:09:08 Europe/Berlin] Timestamp: 2025-11-23 19:09:08
+[23-Nov-2025 19:09:08 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:09:08 Europe/Berlin] Action: index
+[23-Nov-2025 19:09:08 Europe/Berlin] Method: GET
+[23-Nov-2025 19:09:08 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:09:08 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:09:09 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:09:09 Europe/Berlin] Timestamp: 2025-11-23 19:09:09
+[23-Nov-2025 19:09:09 Europe/Berlin] Controller: product
+[23-Nov-2025 19:09:09 Europe/Berlin] Action: shop
+[23-Nov-2025 19:09:09 Europe/Berlin] Method: GET
+[23-Nov-2025 19:09:09 Europe/Berlin] Executing: ProductController->shop()
+[23-Nov-2025 19:09:09 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:09:10 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:09:10 Europe/Berlin] Timestamp: 2025-11-23 19:09:10
+[23-Nov-2025 19:09:10 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:09:10 Europe/Berlin] Action: index
+[23-Nov-2025 19:09:10 Europe/Berlin] Method: GET
+[23-Nov-2025 19:09:10 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:09:10 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:09:12 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:09:12 Europe/Berlin] Timestamp: 2025-11-23 19:09:12
+[23-Nov-2025 19:09:12 Europe/Berlin] Controller: order
+[23-Nov-2025 19:09:12 Europe/Berlin] Action: index
+[23-Nov-2025 19:09:12 Europe/Berlin] Method: GET
+[23-Nov-2025 19:09:12 Europe/Berlin] Executing: OrderController->index()
+[23-Nov-2025 19:09:12 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:09:43 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:09:43 Europe/Berlin] Timestamp: 2025-11-23 19:09:43
+[23-Nov-2025 19:09:43 Europe/Berlin] Controller: order
+[23-Nov-2025 19:09:43 Europe/Berlin] Action: index
+[23-Nov-2025 19:09:43 Europe/Berlin] Method: GET
+[23-Nov-2025 19:09:43 Europe/Berlin] Executing: OrderController->index()
+[23-Nov-2025 19:09:43 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:09:53 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:09:53 Europe/Berlin] Timestamp: 2025-11-23 19:09:53
+[23-Nov-2025 19:09:53 Europe/Berlin] Controller: product
+[23-Nov-2025 19:09:53 Europe/Berlin] Action: index
+[23-Nov-2025 19:09:53 Europe/Berlin] Method: GET
+[23-Nov-2025 19:09:53 Europe/Berlin] Executing: ProductController->index()
+[23-Nov-2025 19:09:53 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:09:53 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:09:53 Europe/Berlin] Timestamp: 2025-11-23 19:09:53
+[23-Nov-2025 19:09:53 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:09:53 Europe/Berlin] Action: index
+[23-Nov-2025 19:09:53 Europe/Berlin] Method: GET
+[23-Nov-2025 19:09:53 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:09:53 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:10:21 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:10:21 Europe/Berlin] Timestamp: 2025-11-23 19:10:21
+[23-Nov-2025 19:10:21 Europe/Berlin] Controller: home
+[23-Nov-2025 19:10:21 Europe/Berlin] Action: index
+[23-Nov-2025 19:10:21 Europe/Berlin] Method: GET
+[23-Nov-2025 19:10:21 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:10:21 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:10:27 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:10:27 Europe/Berlin] Timestamp: 2025-11-23 19:10:27
+[23-Nov-2025 19:10:27 Europe/Berlin] Controller: product
+[23-Nov-2025 19:10:27 Europe/Berlin] Action: shop
+[23-Nov-2025 19:10:27 Europe/Berlin] Method: GET
+[23-Nov-2025 19:10:27 Europe/Berlin] Executing: ProductController->shop()
+[23-Nov-2025 19:10:27 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:10:28 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:10:28 Europe/Berlin] Timestamp: 2025-11-23 19:10:28
+[23-Nov-2025 19:10:28 Europe/Berlin] Controller: dashboard
+[23-Nov-2025 19:10:28 Europe/Berlin] Action: index
+[23-Nov-2025 19:10:28 Europe/Berlin] Method: GET
+[23-Nov-2025 19:10:28 Europe/Berlin] Executing: DashboardController->index()
+[23-Nov-2025 19:10:28 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:10:29 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:10:29 Europe/Berlin] Timestamp: 2025-11-23 19:10:29
+[23-Nov-2025 19:10:29 Europe/Berlin] Controller: order
+[23-Nov-2025 19:10:29 Europe/Berlin] Action: index
+[23-Nov-2025 19:10:29 Europe/Berlin] Method: GET
+[23-Nov-2025 19:10:29 Europe/Berlin] Executing: OrderController->index()
+[23-Nov-2025 19:10:29 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:10:30 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:10:30 Europe/Berlin] Timestamp: 2025-11-23 19:10:30
+[23-Nov-2025 19:10:30 Europe/Berlin] Controller: home
+[23-Nov-2025 19:10:30 Europe/Berlin] Action: index
+[23-Nov-2025 19:10:30 Europe/Berlin] Method: GET
+[23-Nov-2025 19:10:30 Europe/Berlin] Executing: HomeController->index()
+[23-Nov-2025 19:10:30 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:10:34 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:10:34 Europe/Berlin] Timestamp: 2025-11-23 19:10:34
+[23-Nov-2025 19:10:34 Europe/Berlin] Controller: product
+[23-Nov-2025 19:10:34 Europe/Berlin] Action: shop
+[23-Nov-2025 19:10:34 Europe/Berlin] Method: GET
+[23-Nov-2025 19:10:34 Europe/Berlin] Executing: ProductController->shop()
+[23-Nov-2025 19:10:34 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:10:41 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:10:41 Europe/Berlin] Timestamp: 2025-11-23 19:10:41
+[23-Nov-2025 19:10:41 Europe/Berlin] Controller: order
+[23-Nov-2025 19:10:41 Europe/Berlin] Action: checkout
+[23-Nov-2025 19:10:41 Europe/Berlin] Method: GET
+[23-Nov-2025 19:10:41 Europe/Berlin] Executing: OrderController->checkout()
+[23-Nov-2025 19:10:41 Europe/Berlin] Action executed successfully
+[23-Nov-2025 19:38:34 Europe/Berlin] === NEW REQUEST ===
+[23-Nov-2025 19:38:34 Europe/Berlin] Timestamp: 2025-11-23 19:38:34
+[23-Nov-2025 19:38:34 Europe/Berlin] Controller: product
+[23-Nov-2025 19:38:34 Europe/Berlin] Action: shop
+[23-Nov-2025 19:38:34 Europe/Berlin] Method: GET
+[23-Nov-2025 19:38:34 Europe/Berlin] Executing: ProductController->shop()
+[23-Nov-2025 19:38:34 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:43:53 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:43:53 Europe/Berlin] Timestamp: 2025-11-24 19:43:53
+[24-Nov-2025 19:43:53 Europe/Berlin] Controller: product
+[24-Nov-2025 19:43:53 Europe/Berlin] Action: shop
+[24-Nov-2025 19:43:53 Europe/Berlin] Method: GET
+[24-Nov-2025 19:43:53 Europe/Berlin] Executing: ProductController->shop()
+[24-Nov-2025 19:43:53 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:43:55 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:43:55 Europe/Berlin] Timestamp: 2025-11-24 19:43:55
+[24-Nov-2025 19:43:55 Europe/Berlin] Controller: home
+[24-Nov-2025 19:43:55 Europe/Berlin] Action: index
+[24-Nov-2025 19:43:55 Europe/Berlin] Method: GET
+[24-Nov-2025 19:43:55 Europe/Berlin] Executing: HomeController->index()
+[24-Nov-2025 19:43:55 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:44:00 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:44:00 Europe/Berlin] Timestamp: 2025-11-24 19:44:00
+[24-Nov-2025 19:44:00 Europe/Berlin] Controller: product
+[24-Nov-2025 19:44:00 Europe/Berlin] Action: shop
+[24-Nov-2025 19:44:00 Europe/Berlin] Method: GET
+[24-Nov-2025 19:44:00 Europe/Berlin] Executing: ProductController->shop()
+[24-Nov-2025 19:44:00 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:44:04 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:44:04 Europe/Berlin] Timestamp: 2025-11-24 19:44:04
+[24-Nov-2025 19:44:04 Europe/Berlin] Controller: home
+[24-Nov-2025 19:44:04 Europe/Berlin] Action: index
+[24-Nov-2025 19:44:04 Europe/Berlin] Method: GET
+[24-Nov-2025 19:44:04 Europe/Berlin] Executing: HomeController->index()
+[24-Nov-2025 19:44:04 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:44:06 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:44:06 Europe/Berlin] Timestamp: 2025-11-24 19:44:06
+[24-Nov-2025 19:44:06 Europe/Berlin] Controller: product
+[24-Nov-2025 19:44:06 Europe/Berlin] Action: shop
+[24-Nov-2025 19:44:06 Europe/Berlin] Method: GET
+[24-Nov-2025 19:44:06 Europe/Berlin] Executing: ProductController->shop()
+[24-Nov-2025 19:44:06 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:44:11 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:44:11 Europe/Berlin] Timestamp: 2025-11-24 19:44:11
+[24-Nov-2025 19:44:11 Europe/Berlin] Controller: dashboard
+[24-Nov-2025 19:44:11 Europe/Berlin] Action: index
+[24-Nov-2025 19:44:11 Europe/Berlin] Method: GET
+[24-Nov-2025 19:44:11 Europe/Berlin] Executing: DashboardController->index()
+[24-Nov-2025 19:44:11 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:44:15 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:44:15 Europe/Berlin] Timestamp: 2025-11-24 19:44:15
+[24-Nov-2025 19:44:15 Europe/Berlin] Controller: home
+[24-Nov-2025 19:44:15 Europe/Berlin] Action: index
+[24-Nov-2025 19:44:15 Europe/Berlin] Method: GET
+[24-Nov-2025 19:44:15 Europe/Berlin] Executing: HomeController->index()
+[24-Nov-2025 19:44:15 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:44:17 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:44:17 Europe/Berlin] Timestamp: 2025-11-24 19:44:17
+[24-Nov-2025 19:44:17 Europe/Berlin] Controller: product
+[24-Nov-2025 19:44:17 Europe/Berlin] Action: shop
+[24-Nov-2025 19:44:17 Europe/Berlin] Method: GET
+[24-Nov-2025 19:44:17 Europe/Berlin] Executing: ProductController->shop()
+[24-Nov-2025 19:44:17 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:44:17 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:44:18 Europe/Berlin] Timestamp: 2025-11-24 19:44:18
+[24-Nov-2025 19:44:18 Europe/Berlin] Controller: order
+[24-Nov-2025 19:44:18 Europe/Berlin] Action: index
+[24-Nov-2025 19:44:18 Europe/Berlin] Method: GET
+[24-Nov-2025 19:44:18 Europe/Berlin] Executing: OrderController->index()
+[24-Nov-2025 19:44:18 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:44:23 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:44:23 Europe/Berlin] Timestamp: 2025-11-24 19:44:23
+[24-Nov-2025 19:44:23 Europe/Berlin] Controller: order
+[24-Nov-2025 19:44:23 Europe/Berlin] Action: checkout
+[24-Nov-2025 19:44:23 Europe/Berlin] Method: GET
+[24-Nov-2025 19:44:23 Europe/Berlin] Executing: OrderController->checkout()
+[24-Nov-2025 19:44:23 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:44:33 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:44:33 Europe/Berlin] Timestamp: 2025-11-24 19:44:33
+[24-Nov-2025 19:44:33 Europe/Berlin] Controller: order
+[24-Nov-2025 19:44:33 Europe/Berlin] Action: create
+[24-Nov-2025 19:44:33 Europe/Berlin] Method: POST
+[24-Nov-2025 19:44:33 Europe/Berlin] Executing: OrderController->create()
+[24-Nov-2025 19:44:33 Europe/Berlin] === ORDER CREATE METHOD CALLED ===
+[24-Nov-2025 19:44:33 Europe/Berlin] Customer Data: Array
+(
+    [first_name] => ddd
+    [last_name] => ddd
+    [email] => der@gmail.com
+    [phone] => +21653367347
+)
+
+[24-Nov-2025 19:44:33 Europe/Berlin] Cart JSON: [{"id":1,"name":"Filtre à Eau","price":320,"image":"water-filter.jpg","quantity":1},{"id":4,"name":"Ensemble de Couvertures","price":35.5,"image":"blanket-set.jpg","quantity":1}]
+[24-Nov-2025 19:44:33 Europe/Berlin] Cart Data: Array
+(
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => Filtre à Eau
+                    [price] => 320
+                    [image] => water-filter.jpg
+                    [quantity] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 4
+                    [name] => Ensemble de Couvertures
+                    [price] => 35.5
+                    [image] => blanket-set.jpg
+                    [quantity] => 1
+                )
+
+        )
+
+    [total] => 355.5
+    [payment_method] => paypal
+)
+
+[24-Nov-2025 19:44:33 Europe/Berlin] Creating order...
+[24-Nov-2025 19:44:33 Europe/Berlin] Order created successfully with ID: 10
+[24-Nov-2025 19:44:33 Europe/Berlin] Order status updated to 'paid'
+[24-Nov-2025 19:44:33 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:44:33 Europe/Berlin] Timestamp: 2025-11-24 19:44:33
+[24-Nov-2025 19:44:33 Europe/Berlin] Controller: order
+[24-Nov-2025 19:44:33 Europe/Berlin] Action: confirmation
+[24-Nov-2025 19:44:33 Europe/Berlin] Method: GET
+[24-Nov-2025 19:44:33 Europe/Berlin] Executing: OrderController->confirmation()
+[24-Nov-2025 19:44:33 Europe/Berlin] === CONFIRMATION PAGE ===
+[24-Nov-2025 19:44:33 Europe/Berlin] Order ID: 10
+[24-Nov-2025 19:44:33 Europe/Berlin] Order Details: Array
+(
+    [id] => 10
+    [customer_id] => 9
+    [total_amount] => 355.50
+    [status] => paid
+    [payment_method] => paypal
+    [created_at] => 2025-11-24 19:44:33
+    [updated_at] => 2025-11-24 19:44:33
+    [first_name] => ddd
+    [last_name] => ddd
+    [email] => der@gmail.com
+    [phone] => +21653367347
+)
+
+[24-Nov-2025 19:44:33 Europe/Berlin] Order Items: Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [order_id] => 10
+            [product_id] => 1
+            [quantity] => 1
+            [unit_price] => 320.00
+            [subtotal] => 320.00
+            [name_fr] => Filtre à Eau
+            [name_en] => Water Filter
+            [img_name] => water-filter.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [order_id] => 10
+            [product_id] => 4
+            [quantity] => 1
+            [unit_price] => 35.50
+            [subtotal] => 35.50
+            [name_fr] => Ensemble de Couvertures
+            [name_en] => Blanket Set
+            [img_name] => blanket-set.jpg
+        )
+
+)
+
+[24-Nov-2025 19:44:33 Europe/Berlin] Final Order Details with items: Array
+(
+    [id] => 10
+    [customer_id] => 9
+    [total_amount] => 355.50
+    [status] => paid
+    [payment_method] => paypal
+    [created_at] => 2025-11-24 19:44:33
+    [updated_at] => 2025-11-24 19:44:33
+    [first_name] => ddd
+    [last_name] => ddd
+    [email] => der@gmail.com
+    [phone] => +21653367347
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 14
+                    [order_id] => 10
+                    [product_id] => 1
+                    [quantity] => 1
+                    [unit_price] => 320.00
+                    [subtotal] => 320.00
+                    [name_fr] => Filtre à Eau
+                    [name_en] => Water Filter
+                    [img_name] => water-filter.jpg
+                )
+
+            [1] => Array
+                (
+                    [id] => 15
+                    [order_id] => 10
+                    [product_id] => 4
+                    [quantity] => 1
+                    [unit_price] => 35.50
+                    [subtotal] => 35.50
+                    [name_fr] => Ensemble de Couvertures
+                    [name_en] => Blanket Set
+                    [img_name] => blanket-set.jpg
+                )
+
+        )
+
+)
+
+[24-Nov-2025 19:44:33 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:44:42 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:44:42 Europe/Berlin] Timestamp: 2025-11-24 19:44:42
+[24-Nov-2025 19:44:42 Europe/Berlin] Controller: order
+[24-Nov-2025 19:44:42 Europe/Berlin] Action: view
+[24-Nov-2025 19:44:42 Europe/Berlin] Method: GET
+[24-Nov-2025 19:44:42 Europe/Berlin] Executing: OrderController->view()
+[24-Nov-2025 19:44:42 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:44:47 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:44:47 Europe/Berlin] Timestamp: 2025-11-24 19:44:47
+[24-Nov-2025 19:44:47 Europe/Berlin] Controller: order
+[24-Nov-2025 19:44:47 Europe/Berlin] Action: updateStatus
+[24-Nov-2025 19:44:47 Europe/Berlin] Method: POST
+[24-Nov-2025 19:44:47 Europe/Berlin] Executing: OrderController->updateStatus()
+[24-Nov-2025 19:44:47 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:44:47 Europe/Berlin] Timestamp: 2025-11-24 19:44:47
+[24-Nov-2025 19:44:47 Europe/Berlin] Controller: order
+[24-Nov-2025 19:44:47 Europe/Berlin] Action: view
+[24-Nov-2025 19:44:47 Europe/Berlin] Method: GET
+[24-Nov-2025 19:44:47 Europe/Berlin] Executing: OrderController->view()
+[24-Nov-2025 19:44:47 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:45:07 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:45:07 Europe/Berlin] Timestamp: 2025-11-24 19:45:07
+[24-Nov-2025 19:45:07 Europe/Berlin] Controller: order
+[24-Nov-2025 19:45:07 Europe/Berlin] Action: index
+[24-Nov-2025 19:45:07 Europe/Berlin] Method: GET
+[24-Nov-2025 19:45:07 Europe/Berlin] Executing: OrderController->index()
+[24-Nov-2025 19:45:07 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:45:08 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:45:08 Europe/Berlin] Timestamp: 2025-11-24 19:45:08
+[24-Nov-2025 19:45:08 Europe/Berlin] Controller: home
+[24-Nov-2025 19:45:08 Europe/Berlin] Action: index
+[24-Nov-2025 19:45:08 Europe/Berlin] Method: GET
+[24-Nov-2025 19:45:08 Europe/Berlin] Executing: HomeController->index()
+[24-Nov-2025 19:45:08 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:45:09 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:45:09 Europe/Berlin] Timestamp: 2025-11-24 19:45:09
+[24-Nov-2025 19:45:09 Europe/Berlin] Controller: dashboard
+[24-Nov-2025 19:45:09 Europe/Berlin] Action: index
+[24-Nov-2025 19:45:09 Europe/Berlin] Method: GET
+[24-Nov-2025 19:45:09 Europe/Berlin] Executing: DashboardController->index()
+[24-Nov-2025 19:45:09 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:45:11 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:45:11 Europe/Berlin] Timestamp: 2025-11-24 19:45:11
+[24-Nov-2025 19:45:11 Europe/Berlin] Controller: product
+[24-Nov-2025 19:45:11 Europe/Berlin] Action: index
+[24-Nov-2025 19:45:11 Europe/Berlin] Method: GET
+[24-Nov-2025 19:45:11 Europe/Berlin] Executing: ProductController->index()
+[24-Nov-2025 19:45:11 Europe/Berlin] Action executed successfully
+[24-Nov-2025 19:45:12 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 19:45:12 Europe/Berlin] Timestamp: 2025-11-24 19:45:12
+[24-Nov-2025 19:45:12 Europe/Berlin] Controller: order
+[24-Nov-2025 19:45:12 Europe/Berlin] Action: index
+[24-Nov-2025 19:45:12 Europe/Berlin] Method: GET
+[24-Nov-2025 19:45:12 Europe/Berlin] Executing: OrderController->index()
+[24-Nov-2025 19:45:12 Europe/Berlin] Action executed successfully
+[24-Nov-2025 21:59:06 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 21:59:06 Europe/Berlin] Timestamp: 2025-11-24 21:59:06
+[24-Nov-2025 21:59:06 Europe/Berlin] Controller: product
+[24-Nov-2025 21:59:06 Europe/Berlin] Action: shop
+[24-Nov-2025 21:59:06 Europe/Berlin] Method: GET
+[24-Nov-2025 21:59:10 Europe/Berlin] Executing: ProductController->shop()
+[24-Nov-2025 21:59:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\ImpactShop\models\Product.php:29
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\controllers\ProductController.php(33): Product->getAllProducts()
+#1 C:\xampp\htdocs\ImpactShop\index.php(75): ProductController->shop()
+#2 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\models\Product.php on line 29
+[24-Nov-2025 21:59:17 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 21:59:17 Europe/Berlin] Timestamp: 2025-11-24 21:59:17
+[24-Nov-2025 21:59:17 Europe/Berlin] Controller: product
+[24-Nov-2025 21:59:17 Europe/Berlin] Action: shop
+[24-Nov-2025 21:59:17 Europe/Berlin] Method: GET
+[24-Nov-2025 21:59:17 Europe/Berlin] Executing: ProductController->shop()
+[24-Nov-2025 21:59:17 Europe/Berlin] Action executed successfully
+[24-Nov-2025 21:59:19 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 21:59:19 Europe/Berlin] Timestamp: 2025-11-24 21:59:19
+[24-Nov-2025 21:59:19 Europe/Berlin] Controller: home
+[24-Nov-2025 21:59:19 Europe/Berlin] Action: index
+[24-Nov-2025 21:59:19 Europe/Berlin] Method: GET
+[24-Nov-2025 21:59:19 Europe/Berlin] Executing: HomeController->index()
+[24-Nov-2025 21:59:19 Europe/Berlin] Action executed successfully
+[24-Nov-2025 21:59:21 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 21:59:21 Europe/Berlin] Timestamp: 2025-11-24 21:59:21
+[24-Nov-2025 21:59:21 Europe/Berlin] Controller: product
+[24-Nov-2025 21:59:21 Europe/Berlin] Action: shop
+[24-Nov-2025 21:59:21 Europe/Berlin] Method: GET
+[24-Nov-2025 21:59:21 Europe/Berlin] Executing: ProductController->shop()
+[24-Nov-2025 21:59:21 Europe/Berlin] Action executed successfully
+[24-Nov-2025 21:59:23 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 21:59:23 Europe/Berlin] Timestamp: 2025-11-24 21:59:23
+[24-Nov-2025 21:59:23 Europe/Berlin] Controller: dashboard
+[24-Nov-2025 21:59:23 Europe/Berlin] Action: index
+[24-Nov-2025 21:59:23 Europe/Berlin] Method: GET
+[24-Nov-2025 21:59:23 Europe/Berlin] Executing: DashboardController->index()
+[24-Nov-2025 21:59:23 Europe/Berlin] Action executed successfully
+[24-Nov-2025 21:59:55 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 21:59:55 Europe/Berlin] Timestamp: 2025-11-24 21:59:55
+[24-Nov-2025 21:59:55 Europe/Berlin] Controller: home
+[24-Nov-2025 21:59:55 Europe/Berlin] Action: index
+[24-Nov-2025 21:59:55 Europe/Berlin] Method: GET
+[24-Nov-2025 21:59:55 Europe/Berlin] Executing: HomeController->index()
+[24-Nov-2025 21:59:55 Europe/Berlin] Action executed successfully
+[24-Nov-2025 21:59:57 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 21:59:57 Europe/Berlin] Timestamp: 2025-11-24 21:59:57
+[24-Nov-2025 21:59:57 Europe/Berlin] Controller: product
+[24-Nov-2025 21:59:57 Europe/Berlin] Action: shop
+[24-Nov-2025 21:59:57 Europe/Berlin] Method: GET
+[24-Nov-2025 21:59:57 Europe/Berlin] Executing: ProductController->shop()
+[24-Nov-2025 21:59:57 Europe/Berlin] Action executed successfully
+[24-Nov-2025 21:59:59 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 21:59:59 Europe/Berlin] Timestamp: 2025-11-24 21:59:59
+[24-Nov-2025 21:59:59 Europe/Berlin] Controller: dashboard
+[24-Nov-2025 21:59:59 Europe/Berlin] Action: index
+[24-Nov-2025 21:59:59 Europe/Berlin] Method: GET
+[24-Nov-2025 21:59:59 Europe/Berlin] Executing: DashboardController->index()
+[24-Nov-2025 21:59:59 Europe/Berlin] Action executed successfully
+[24-Nov-2025 22:00:00 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 22:00:00 Europe/Berlin] Timestamp: 2025-11-24 22:00:00
+[24-Nov-2025 22:00:00 Europe/Berlin] Controller: home
+[24-Nov-2025 22:00:00 Europe/Berlin] Action: index
+[24-Nov-2025 22:00:00 Europe/Berlin] Method: GET
+[24-Nov-2025 22:00:00 Europe/Berlin] Executing: HomeController->index()
+[24-Nov-2025 22:00:00 Europe/Berlin] Action executed successfully
+[24-Nov-2025 22:00:02 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 22:00:02 Europe/Berlin] Timestamp: 2025-11-24 22:00:02
+[24-Nov-2025 22:00:02 Europe/Berlin] Controller: product
+[24-Nov-2025 22:00:02 Europe/Berlin] Action: shop
+[24-Nov-2025 22:00:02 Europe/Berlin] Method: GET
+[24-Nov-2025 22:00:02 Europe/Berlin] Executing: ProductController->shop()
+[24-Nov-2025 22:00:02 Europe/Berlin] Action executed successfully
+[24-Nov-2025 22:00:02 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 22:00:02 Europe/Berlin] Timestamp: 2025-11-24 22:00:02
+[24-Nov-2025 22:00:02 Europe/Berlin] Controller: order
+[24-Nov-2025 22:00:02 Europe/Berlin] Action: index
+[24-Nov-2025 22:00:02 Europe/Berlin] Method: GET
+[24-Nov-2025 22:00:02 Europe/Berlin] Executing: OrderController->index()
+[24-Nov-2025 22:00:02 Europe/Berlin] Action executed successfully
+[24-Nov-2025 22:00:05 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 22:00:05 Europe/Berlin] Timestamp: 2025-11-24 22:00:05
+[24-Nov-2025 22:00:05 Europe/Berlin] Controller: home
+[24-Nov-2025 22:00:05 Europe/Berlin] Action: index
+[24-Nov-2025 22:00:05 Europe/Berlin] Method: GET
+[24-Nov-2025 22:00:05 Europe/Berlin] Executing: HomeController->index()
+[24-Nov-2025 22:00:05 Europe/Berlin] Action executed successfully
+[24-Nov-2025 22:00:06 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 22:00:06 Europe/Berlin] Timestamp: 2025-11-24 22:00:06
+[24-Nov-2025 22:00:06 Europe/Berlin] Controller: product
+[24-Nov-2025 22:00:06 Europe/Berlin] Action: shop
+[24-Nov-2025 22:00:06 Europe/Berlin] Method: GET
+[24-Nov-2025 22:00:06 Europe/Berlin] Executing: ProductController->shop()
+[24-Nov-2025 22:00:06 Europe/Berlin] Action executed successfully
+[24-Nov-2025 22:00:10 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 22:00:10 Europe/Berlin] Timestamp: 2025-11-24 22:00:10
+[24-Nov-2025 22:00:10 Europe/Berlin] Controller: order
+[24-Nov-2025 22:00:10 Europe/Berlin] Action: checkout
+[24-Nov-2025 22:00:10 Europe/Berlin] Method: GET
+[24-Nov-2025 22:00:10 Europe/Berlin] Executing: OrderController->checkout()
+[24-Nov-2025 22:00:10 Europe/Berlin] Action executed successfully
+[24-Nov-2025 22:00:15 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 22:00:15 Europe/Berlin] Timestamp: 2025-11-24 22:00:15
+[24-Nov-2025 22:00:15 Europe/Berlin] Controller: order
+[24-Nov-2025 22:00:15 Europe/Berlin] Action: create
+[24-Nov-2025 22:00:15 Europe/Berlin] Method: POST
+[24-Nov-2025 22:00:15 Europe/Berlin] Executing: OrderController->create()
+[24-Nov-2025 22:00:15 Europe/Berlin] === ORDER CREATE METHOD CALLED ===
+[24-Nov-2025 22:00:15 Europe/Berlin] Customer Data: Array
+(
+    [first_name] => dsds
+    [last_name] => dsdfds
+    [email] => aa@gmail.com
+    [phone] => 55556655
+)
+
+[24-Nov-2025 22:00:15 Europe/Berlin] Cart JSON: [{"id":3,"name":"Kit Médical","price":89.99,"image":"medical-kit.jpg","quantity":1}]
+[24-Nov-2025 22:00:15 Europe/Berlin] Cart Data: Array
+(
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [name] => Kit Médical
+                    [price] => 89.99
+                    [image] => medical-kit.jpg
+                    [quantity] => 1
+                )
+
+        )
+
+    [total] => 89.99
+    [payment_method] => paypal
+)
+
+[24-Nov-2025 22:00:15 Europe/Berlin] Creating order...
+[24-Nov-2025 22:00:15 Europe/Berlin] Order created successfully with ID: 11
+[24-Nov-2025 22:00:15 Europe/Berlin] Order status updated to 'paid'
+[24-Nov-2025 22:00:15 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 22:00:15 Europe/Berlin] Timestamp: 2025-11-24 22:00:15
+[24-Nov-2025 22:00:15 Europe/Berlin] Controller: order
+[24-Nov-2025 22:00:15 Europe/Berlin] Action: confirmation
+[24-Nov-2025 22:00:15 Europe/Berlin] Method: GET
+[24-Nov-2025 22:00:15 Europe/Berlin] Executing: OrderController->confirmation()
+[24-Nov-2025 22:00:15 Europe/Berlin] === CONFIRMATION PAGE ===
+[24-Nov-2025 22:00:15 Europe/Berlin] Order ID: 11
+[24-Nov-2025 22:00:15 Europe/Berlin] Order Details: Array
+(
+    [id] => 11
+    [customer_id] => 8
+    [total_amount] => 89.99
+    [status] => paid
+    [payment_method] => paypal
+    [created_at] => 2025-11-24 22:00:15
+    [updated_at] => 2025-11-24 22:00:15
+    [first_name] => dsds
+    [last_name] => dsdfds
+    [email] => aa@gmail.com
+    [phone] => +21655556655
+)
+
+[24-Nov-2025 22:00:15 Europe/Berlin] Order Items: Array
+(
+    [0] => Array
+        (
+            [id] => 16
+            [order_id] => 11
+            [product_id] => 3
+            [quantity] => 1
+            [unit_price] => 89.99
+            [subtotal] => 89.99
+            [name_fr] => Kit Médical
+            [name_en] => Medical Kit
+            [img_name] => medical-kit.jpg
+        )
+
+)
+
+[24-Nov-2025 22:00:15 Europe/Berlin] Final Order Details with items: Array
+(
+    [id] => 11
+    [customer_id] => 8
+    [total_amount] => 89.99
+    [status] => paid
+    [payment_method] => paypal
+    [created_at] => 2025-11-24 22:00:15
+    [updated_at] => 2025-11-24 22:00:15
+    [first_name] => dsds
+    [last_name] => dsdfds
+    [email] => aa@gmail.com
+    [phone] => +21655556655
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 16
+                    [order_id] => 11
+                    [product_id] => 3
+                    [quantity] => 1
+                    [unit_price] => 89.99
+                    [subtotal] => 89.99
+                    [name_fr] => Kit Médical
+                    [name_en] => Medical Kit
+                    [img_name] => medical-kit.jpg
+                )
+
+        )
+
+)
+
+[24-Nov-2025 22:00:15 Europe/Berlin] Action executed successfully
+[24-Nov-2025 22:00:20 Europe/Berlin] === NEW REQUEST ===
+[24-Nov-2025 22:00:20 Europe/Berlin] Timestamp: 2025-11-24 22:00:20
+[24-Nov-2025 22:00:20 Europe/Berlin] Controller: order
+[24-Nov-2025 22:00:20 Europe/Berlin] Action: view
+[24-Nov-2025 22:00:20 Europe/Berlin] Method: GET
+[24-Nov-2025 22:00:20 Europe/Berlin] Executing: OrderController->view()
+[24-Nov-2025 22:00:20 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:44:21 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:44:21 Europe/Berlin] Timestamp: 2025-11-25 13:44:21
+[25-Nov-2025 13:44:21 Europe/Berlin] Controller: product
+[25-Nov-2025 13:44:21 Europe/Berlin] Action: shop
+[25-Nov-2025 13:44:21 Europe/Berlin] Method: GET
+[25-Nov-2025 13:44:22 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 13:44:22 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:04 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:04 Europe/Berlin] Timestamp: 2025-11-25 13:54:04
+[25-Nov-2025 13:54:04 Europe/Berlin] Controller: product
+[25-Nov-2025 13:54:04 Europe/Berlin] Action: shop
+[25-Nov-2025 13:54:04 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:04 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 13:54:04 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:05 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:05 Europe/Berlin] Timestamp: 2025-11-25 13:54:05
+[25-Nov-2025 13:54:05 Europe/Berlin] Controller: product
+[25-Nov-2025 13:54:05 Europe/Berlin] Action: shop
+[25-Nov-2025 13:54:05 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:05 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 13:54:05 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:06 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:06 Europe/Berlin] Timestamp: 2025-11-25 13:54:06
+[25-Nov-2025 13:54:06 Europe/Berlin] Controller: home
+[25-Nov-2025 13:54:06 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:06 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:06 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 13:54:06 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:07 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:07 Europe/Berlin] Timestamp: 2025-11-25 13:54:07
+[25-Nov-2025 13:54:07 Europe/Berlin] Controller: product
+[25-Nov-2025 13:54:07 Europe/Berlin] Action: shop
+[25-Nov-2025 13:54:07 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:07 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 13:54:07 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:08 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:08 Europe/Berlin] Timestamp: 2025-11-25 13:54:08
+[25-Nov-2025 13:54:08 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 13:54:08 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:08 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:08 Europe/Berlin] Executing: DashboardController->index()
+[25-Nov-2025 13:54:08 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:10 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:10 Europe/Berlin] Timestamp: 2025-11-25 13:54:10
+[25-Nov-2025 13:54:10 Europe/Berlin] Controller: order
+[25-Nov-2025 13:54:10 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:10 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:10 Europe/Berlin] Executing: OrderController->index()
+[25-Nov-2025 13:54:10 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:11 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:11 Europe/Berlin] Timestamp: 2025-11-25 13:54:11
+[25-Nov-2025 13:54:11 Europe/Berlin] Controller: home
+[25-Nov-2025 13:54:11 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:11 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:11 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 13:54:11 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:12 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:12 Europe/Berlin] Timestamp: 2025-11-25 13:54:12
+[25-Nov-2025 13:54:12 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 13:54:12 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:12 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:12 Europe/Berlin] Executing: DashboardController->index()
+[25-Nov-2025 13:54:12 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:13 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:13 Europe/Berlin] Timestamp: 2025-11-25 13:54:13
+[25-Nov-2025 13:54:13 Europe/Berlin] Controller: product
+[25-Nov-2025 13:54:13 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:13 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:13 Europe/Berlin] Executing: ProductController->index()
+[25-Nov-2025 13:54:13 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:13 Europe/Berlin] Timestamp: 2025-11-25 13:54:13
+[25-Nov-2025 13:54:13 Europe/Berlin] Controller: auth
+[25-Nov-2025 13:54:13 Europe/Berlin] Action: login
+[25-Nov-2025 13:54:13 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:13 Europe/Berlin] FATAL ERROR: Action 'login' non trouvée dans le contrôleur 'auth'
+[25-Nov-2025 13:54:13 Europe/Berlin] Stack trace: #0 {main}
+[25-Nov-2025 13:54:21 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:21 Europe/Berlin] Timestamp: 2025-11-25 13:54:21
+[25-Nov-2025 13:54:21 Europe/Berlin] Controller: home
+[25-Nov-2025 13:54:21 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:21 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:21 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 13:54:21 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:30 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:30 Europe/Berlin] Timestamp: 2025-11-25 13:54:30
+[25-Nov-2025 13:54:30 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 13:54:30 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:30 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:30 Europe/Berlin] Executing: DashboardController->index()
+[25-Nov-2025 13:54:30 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:31 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:31 Europe/Berlin] Timestamp: 2025-11-25 13:54:31
+[25-Nov-2025 13:54:31 Europe/Berlin] Controller: product
+[25-Nov-2025 13:54:31 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:31 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:31 Europe/Berlin] Executing: ProductController->index()
+[25-Nov-2025 13:54:32 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:35 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:35 Europe/Berlin] Timestamp: 2025-11-25 13:54:35
+[25-Nov-2025 13:54:35 Europe/Berlin] Controller: order
+[25-Nov-2025 13:54:35 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:35 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:35 Europe/Berlin] Executing: OrderController->index()
+[25-Nov-2025 13:54:35 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:37 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:37 Europe/Berlin] Timestamp: 2025-11-25 13:54:37
+[25-Nov-2025 13:54:37 Europe/Berlin] Controller: home
+[25-Nov-2025 13:54:37 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:37 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:37 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 13:54:37 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:38 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:38 Europe/Berlin] Timestamp: 2025-11-25 13:54:38
+[25-Nov-2025 13:54:38 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 13:54:38 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:38 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:38 Europe/Berlin] Executing: DashboardController->index()
+[25-Nov-2025 13:54:38 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:39 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:39 Europe/Berlin] Timestamp: 2025-11-25 13:54:39
+[25-Nov-2025 13:54:39 Europe/Berlin] Controller: product
+[25-Nov-2025 13:54:39 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:39 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:39 Europe/Berlin] Executing: ProductController->index()
+[25-Nov-2025 13:54:39 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:40 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:40 Europe/Berlin] Timestamp: 2025-11-25 13:54:40
+[25-Nov-2025 13:54:40 Europe/Berlin] Controller: order
+[25-Nov-2025 13:54:40 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:40 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:40 Europe/Berlin] Executing: OrderController->index()
+[25-Nov-2025 13:54:40 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:42 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:42 Europe/Berlin] Timestamp: 2025-11-25 13:54:42
+[25-Nov-2025 13:54:42 Europe/Berlin] Controller: home
+[25-Nov-2025 13:54:42 Europe/Berlin] Action: index
+[25-Nov-2025 13:54:42 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:42 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 13:54:42 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:54:43 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:54:43 Europe/Berlin] Timestamp: 2025-11-25 13:54:43
+[25-Nov-2025 13:54:43 Europe/Berlin] Controller: product
+[25-Nov-2025 13:54:43 Europe/Berlin] Action: shop
+[25-Nov-2025 13:54:43 Europe/Berlin] Method: GET
+[25-Nov-2025 13:54:43 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 13:54:43 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:56:05 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:56:05 Europe/Berlin] Timestamp: 2025-11-25 13:56:05
+[25-Nov-2025 13:56:05 Europe/Berlin] Controller: product
+[25-Nov-2025 13:56:05 Europe/Berlin] Action: shop
+[25-Nov-2025 13:56:05 Europe/Berlin] Method: GET
+[25-Nov-2025 13:56:05 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 13:56:05 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:56:06 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:56:06 Europe/Berlin] Timestamp: 2025-11-25 13:56:06
+[25-Nov-2025 13:56:06 Europe/Berlin] Controller: product
+[25-Nov-2025 13:56:06 Europe/Berlin] Action: shop
+[25-Nov-2025 13:56:06 Europe/Berlin] Method: GET
+[25-Nov-2025 13:56:06 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 13:56:06 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:56:06 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:56:06 Europe/Berlin] Timestamp: 2025-11-25 13:56:06
+[25-Nov-2025 13:56:06 Europe/Berlin] Controller: product
+[25-Nov-2025 13:56:06 Europe/Berlin] Action: shop
+[25-Nov-2025 13:56:06 Europe/Berlin] Method: GET
+[25-Nov-2025 13:56:06 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 13:56:06 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:56:06 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:56:06 Europe/Berlin] Timestamp: 2025-11-25 13:56:06
+[25-Nov-2025 13:56:06 Europe/Berlin] Controller: product
+[25-Nov-2025 13:56:06 Europe/Berlin] Action: shop
+[25-Nov-2025 13:56:06 Europe/Berlin] Method: GET
+[25-Nov-2025 13:56:06 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 13:56:06 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:56:07 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:56:07 Europe/Berlin] Timestamp: 2025-11-25 13:56:07
+[25-Nov-2025 13:56:07 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 13:56:07 Europe/Berlin] Action: index
+[25-Nov-2025 13:56:07 Europe/Berlin] Method: GET
+[25-Nov-2025 13:56:07 Europe/Berlin] Executing: DashboardController->index()
+[25-Nov-2025 13:56:07 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:56:08 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:56:08 Europe/Berlin] Timestamp: 2025-11-25 13:56:08
+[25-Nov-2025 13:56:08 Europe/Berlin] Controller: home
+[25-Nov-2025 13:56:08 Europe/Berlin] Action: index
+[25-Nov-2025 13:56:08 Europe/Berlin] Method: GET
+[25-Nov-2025 13:56:08 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 13:56:08 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:56:09 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:56:09 Europe/Berlin] Timestamp: 2025-11-25 13:56:09
+[25-Nov-2025 13:56:09 Europe/Berlin] Controller: product
+[25-Nov-2025 13:56:09 Europe/Berlin] Action: shop
+[25-Nov-2025 13:56:09 Europe/Berlin] Method: GET
+[25-Nov-2025 13:56:09 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 13:56:09 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:56:15 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:56:15 Europe/Berlin] Timestamp: 2025-11-25 13:56:15
+[25-Nov-2025 13:56:15 Europe/Berlin] Controller: order
+[25-Nov-2025 13:56:15 Europe/Berlin] Action: checkout
+[25-Nov-2025 13:56:15 Europe/Berlin] Method: GET
+[25-Nov-2025 13:56:15 Europe/Berlin] Executing: OrderController->checkout()
+[25-Nov-2025 13:56:15 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:56:24 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:56:24 Europe/Berlin] Timestamp: 2025-11-25 13:56:24
+[25-Nov-2025 13:56:24 Europe/Berlin] Controller: order
+[25-Nov-2025 13:56:24 Europe/Berlin] Action: create
+[25-Nov-2025 13:56:24 Europe/Berlin] Method: POST
+[25-Nov-2025 13:56:24 Europe/Berlin] Executing: OrderController->create()
+[25-Nov-2025 13:56:24 Europe/Berlin] === ORDER CREATE METHOD CALLED ===
+[25-Nov-2025 13:56:24 Europe/Berlin] ERROR: Invalid CSRF token
+[25-Nov-2025 13:56:24 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:56:24 Europe/Berlin] Timestamp: 2025-11-25 13:56:24
+[25-Nov-2025 13:56:24 Europe/Berlin] Controller: order
+[25-Nov-2025 13:56:24 Europe/Berlin] Action: checkout
+[25-Nov-2025 13:56:24 Europe/Berlin] Method: GET
+[25-Nov-2025 13:56:24 Europe/Berlin] Executing: OrderController->checkout()
+[25-Nov-2025 13:56:24 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:56:41 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:56:41 Europe/Berlin] Timestamp: 2025-11-25 13:56:41
+[25-Nov-2025 13:56:41 Europe/Berlin] Controller: order
+[25-Nov-2025 13:56:41 Europe/Berlin] Action: checkout
+[25-Nov-2025 13:56:41 Europe/Berlin] Method: GET
+[25-Nov-2025 13:56:41 Europe/Berlin] Executing: OrderController->checkout()
+[25-Nov-2025 13:56:41 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:56:45 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:56:45 Europe/Berlin] Timestamp: 2025-11-25 13:56:45
+[25-Nov-2025 13:56:45 Europe/Berlin] Controller: order
+[25-Nov-2025 13:56:45 Europe/Berlin] Action: create
+[25-Nov-2025 13:56:45 Europe/Berlin] Method: POST
+[25-Nov-2025 13:56:45 Europe/Berlin] Executing: OrderController->create()
+[25-Nov-2025 13:56:45 Europe/Berlin] === ORDER CREATE METHOD CALLED ===
+[25-Nov-2025 13:56:45 Europe/Berlin] Customer Data: Array
+(
+    [first_name] => dsds
+    [last_name] => dsdfds
+    [email] => aa@gmail.com
+    [phone] => 55556655
+)
+
+[25-Nov-2025 13:56:45 Europe/Berlin] Cart JSON: [{"id":3,"name":"Kit Médical","price":89.99,"image":"medical-kit.jpg","quantity":1}]
+[25-Nov-2025 13:56:45 Europe/Berlin] Cart Data: Array
+(
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [name] => Kit Médical
+                    [price] => 89.99
+                    [image] => medical-kit.jpg
+                    [quantity] => 1
+                )
+
+        )
+
+    [total] => 89.99
+    [payment_method] => paypal
+)
+
+[25-Nov-2025 13:56:45 Europe/Berlin] Creating order...
+[25-Nov-2025 13:56:45 Europe/Berlin] Order created successfully with ID: 12
+[25-Nov-2025 13:56:45 Europe/Berlin] Order status updated to 'paid'
+[25-Nov-2025 13:56:45 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:56:45 Europe/Berlin] Timestamp: 2025-11-25 13:56:45
+[25-Nov-2025 13:56:45 Europe/Berlin] Controller: order
+[25-Nov-2025 13:56:45 Europe/Berlin] Action: confirmation
+[25-Nov-2025 13:56:45 Europe/Berlin] Method: GET
+[25-Nov-2025 13:56:45 Europe/Berlin] Executing: OrderController->confirmation()
+[25-Nov-2025 13:56:45 Europe/Berlin] === CONFIRMATION PAGE ===
+[25-Nov-2025 13:56:45 Europe/Berlin] Order ID: 12
+[25-Nov-2025 13:56:45 Europe/Berlin] Order Details: Array
+(
+    [id] => 12
+    [customer_id] => 8
+    [total_amount] => 89.99
+    [status] => paid
+    [payment_method] => paypal
+    [created_at] => 2025-11-25 13:56:45
+    [updated_at] => 2025-11-25 13:56:45
+    [first_name] => dsds
+    [last_name] => dsdfds
+    [email] => aa@gmail.com
+    [phone] => +21655556655
+)
+
+[25-Nov-2025 13:56:45 Europe/Berlin] Order Items: Array
+(
+    [0] => Array
+        (
+            [id] => 17
+            [order_id] => 12
+            [product_id] => 3
+            [quantity] => 1
+            [unit_price] => 89.99
+            [subtotal] => 89.99
+            [name_fr] => Kit Médical
+            [name_en] => Medical Kit
+            [img_name] => medical-kit.jpg
+        )
+
+)
+
+[25-Nov-2025 13:56:45 Europe/Berlin] Final Order Details with items: Array
+(
+    [id] => 12
+    [customer_id] => 8
+    [total_amount] => 89.99
+    [status] => paid
+    [payment_method] => paypal
+    [created_at] => 2025-11-25 13:56:45
+    [updated_at] => 2025-11-25 13:56:45
+    [first_name] => dsds
+    [last_name] => dsdfds
+    [email] => aa@gmail.com
+    [phone] => +21655556655
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 17
+                    [order_id] => 12
+                    [product_id] => 3
+                    [quantity] => 1
+                    [unit_price] => 89.99
+                    [subtotal] => 89.99
+                    [name_fr] => Kit Médical
+                    [name_en] => Medical Kit
+                    [img_name] => medical-kit.jpg
+                )
+
+        )
+
+)
+
+[25-Nov-2025 13:56:45 Europe/Berlin] Action executed successfully
+[25-Nov-2025 13:56:48 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 13:56:48 Europe/Berlin] Timestamp: 2025-11-25 13:56:48
+[25-Nov-2025 13:56:48 Europe/Berlin] Controller: order
+[25-Nov-2025 13:56:48 Europe/Berlin] Action: view
+[25-Nov-2025 13:56:48 Europe/Berlin] Method: GET
+[25-Nov-2025 13:56:48 Europe/Berlin] Executing: OrderController->view()
+[25-Nov-2025 13:56:48 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:11:21 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:11:21 Europe/Berlin] Timestamp: 2025-11-25 14:11:21
+[25-Nov-2025 14:11:21 Europe/Berlin] Controller: order
+[25-Nov-2025 14:11:21 Europe/Berlin] Action: index
+[25-Nov-2025 14:11:21 Europe/Berlin] Method: GET
+[25-Nov-2025 14:11:21 Europe/Berlin] Executing: OrderController->index()
+[25-Nov-2025 14:11:22 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:11:23 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:11:23 Europe/Berlin] Timestamp: 2025-11-25 14:11:23
+[25-Nov-2025 14:11:23 Europe/Berlin] Controller: home
+[25-Nov-2025 14:11:23 Europe/Berlin] Action: index
+[25-Nov-2025 14:11:23 Europe/Berlin] Method: GET
+[25-Nov-2025 14:11:23 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 14:11:23 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:14:57 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:14:57 Europe/Berlin] Timestamp: 2025-11-25 14:14:57
+[25-Nov-2025 14:14:57 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 14:14:57 Europe/Berlin] Action: index
+[25-Nov-2025 14:14:57 Europe/Berlin] Method: GET
+[25-Nov-2025 14:14:57 Europe/Berlin] Executing: DashboardController->index()
+[25-Nov-2025 14:14:57 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:14:58 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:14:58 Europe/Berlin] Timestamp: 2025-11-25 14:14:58
+[25-Nov-2025 14:14:58 Europe/Berlin] Controller: product
+[25-Nov-2025 14:14:58 Europe/Berlin] Action: index
+[25-Nov-2025 14:14:58 Europe/Berlin] Method: GET
+[25-Nov-2025 14:14:58 Europe/Berlin] Executing: ProductController->index()
+[25-Nov-2025 14:14:58 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:14:59 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:14:59 Europe/Berlin] Timestamp: 2025-11-25 14:14:59
+[25-Nov-2025 14:14:59 Europe/Berlin] Controller: product
+[25-Nov-2025 14:14:59 Europe/Berlin] Action: create
+[25-Nov-2025 14:14:59 Europe/Berlin] Method: GET
+[25-Nov-2025 14:14:59 Europe/Berlin] Executing: ProductController->create()
+[25-Nov-2025 14:14:59 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:17:54 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:17:54 Europe/Berlin] Timestamp: 2025-11-25 14:17:54
+[25-Nov-2025 14:17:54 Europe/Berlin] Controller: product
+[25-Nov-2025 14:17:54 Europe/Berlin] Action: create
+[25-Nov-2025 14:17:54 Europe/Berlin] Method: GET
+[25-Nov-2025 14:17:54 Europe/Berlin] Executing: ProductController->create()
+[25-Nov-2025 14:17:54 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:19:37 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:19:37 Europe/Berlin] Timestamp: 2025-11-25 14:19:37
+[25-Nov-2025 14:19:37 Europe/Berlin] Controller: product
+[25-Nov-2025 14:19:37 Europe/Berlin] Action: create
+[25-Nov-2025 14:19:37 Europe/Berlin] Method: GET
+[25-Nov-2025 14:19:37 Europe/Berlin] Executing: ProductController->create()
+[25-Nov-2025 14:19:37 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:20:34 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:20:34 Europe/Berlin] Timestamp: 2025-11-25 14:20:34
+[25-Nov-2025 14:20:34 Europe/Berlin] Controller: product
+[25-Nov-2025 14:20:34 Europe/Berlin] Action: shop
+[25-Nov-2025 14:20:34 Europe/Berlin] Method: GET
+[25-Nov-2025 14:20:34 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 14:20:34 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:20:36 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:20:36 Europe/Berlin] Timestamp: 2025-11-25 14:20:36
+[25-Nov-2025 14:20:36 Europe/Berlin] Controller: product
+[25-Nov-2025 14:20:36 Europe/Berlin] Action: shop
+[25-Nov-2025 14:20:36 Europe/Berlin] Method: GET
+[25-Nov-2025 14:20:36 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 14:20:36 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:20:36 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:20:36 Europe/Berlin] Timestamp: 2025-11-25 14:20:36
+[25-Nov-2025 14:20:36 Europe/Berlin] Controller: home
+[25-Nov-2025 14:20:36 Europe/Berlin] Action: index
+[25-Nov-2025 14:20:36 Europe/Berlin] Method: GET
+[25-Nov-2025 14:20:36 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 14:20:36 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:20:37 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:20:37 Europe/Berlin] Timestamp: 2025-11-25 14:20:37
+[25-Nov-2025 14:20:37 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 14:20:37 Europe/Berlin] Action: index
+[25-Nov-2025 14:20:37 Europe/Berlin] Method: GET
+[25-Nov-2025 14:20:37 Europe/Berlin] Executing: DashboardController->index()
+[25-Nov-2025 14:20:37 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:20:40 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:20:40 Europe/Berlin] Timestamp: 2025-11-25 14:20:40
+[25-Nov-2025 14:20:40 Europe/Berlin] Controller: product
+[25-Nov-2025 14:20:40 Europe/Berlin] Action: index
+[25-Nov-2025 14:20:40 Europe/Berlin] Method: GET
+[25-Nov-2025 14:20:40 Europe/Berlin] Executing: ProductController->index()
+[25-Nov-2025 14:20:40 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:20:41 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:20:41 Europe/Berlin] Timestamp: 2025-11-25 14:20:41
+[25-Nov-2025 14:20:41 Europe/Berlin] Controller: product
+[25-Nov-2025 14:20:41 Europe/Berlin] Action: create
+[25-Nov-2025 14:20:41 Europe/Berlin] Method: GET
+[25-Nov-2025 14:20:41 Europe/Berlin] Executing: ProductController->create()
+[25-Nov-2025 14:20:41 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:22:44 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:22:44 Europe/Berlin] Timestamp: 2025-11-25 14:22:44
+[25-Nov-2025 14:22:44 Europe/Berlin] Controller: product
+[25-Nov-2025 14:22:44 Europe/Berlin] Action: create
+[25-Nov-2025 14:22:44 Europe/Berlin] Method: GET
+[25-Nov-2025 14:22:44 Europe/Berlin] Executing: ProductController->create()
+[25-Nov-2025 14:22:44 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:23:28 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:23:28 Europe/Berlin] Timestamp: 2025-11-25 14:23:28
+[25-Nov-2025 14:23:28 Europe/Berlin] Controller: product
+[25-Nov-2025 14:23:28 Europe/Berlin] Action: index
+[25-Nov-2025 14:23:28 Europe/Berlin] Method: GET
+[25-Nov-2025 14:23:28 Europe/Berlin] Executing: ProductController->index()
+[25-Nov-2025 14:23:28 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:23:30 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:23:30 Europe/Berlin] Timestamp: 2025-11-25 14:23:30
+[25-Nov-2025 14:23:30 Europe/Berlin] Controller: order
+[25-Nov-2025 14:23:30 Europe/Berlin] Action: index
+[25-Nov-2025 14:23:30 Europe/Berlin] Method: GET
+[25-Nov-2025 14:23:30 Europe/Berlin] Executing: OrderController->index()
+[25-Nov-2025 14:23:30 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:24:02 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:24:02 Europe/Berlin] Timestamp: 2025-11-25 14:24:02
+[25-Nov-2025 14:24:02 Europe/Berlin] Controller: order
+[25-Nov-2025 14:24:02 Europe/Berlin] Action: index
+[25-Nov-2025 14:24:02 Europe/Berlin] Method: GET
+[25-Nov-2025 14:24:02 Europe/Berlin] Executing: OrderController->index()
+[25-Nov-2025 14:24:02 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:24:03 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:24:03 Europe/Berlin] Timestamp: 2025-11-25 14:24:03
+[25-Nov-2025 14:24:03 Europe/Berlin] Controller: home
+[25-Nov-2025 14:24:03 Europe/Berlin] Action: index
+[25-Nov-2025 14:24:03 Europe/Berlin] Method: GET
+[25-Nov-2025 14:24:03 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 14:24:03 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:24:05 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:24:05 Europe/Berlin] Timestamp: 2025-11-25 14:24:05
+[25-Nov-2025 14:24:05 Europe/Berlin] Controller: product
+[25-Nov-2025 14:24:05 Europe/Berlin] Action: shop
+[25-Nov-2025 14:24:05 Europe/Berlin] Method: GET
+[25-Nov-2025 14:24:05 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 14:24:05 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:24:38 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:24:38 Europe/Berlin] Timestamp: 2025-11-25 14:24:38
+[25-Nov-2025 14:24:38 Europe/Berlin] Controller: product
+[25-Nov-2025 14:24:38 Europe/Berlin] Action: shop
+[25-Nov-2025 14:24:38 Europe/Berlin] Method: GET
+[25-Nov-2025 14:24:38 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 14:24:38 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:25:05 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:25:05 Europe/Berlin] Timestamp: 2025-11-25 14:25:05
+[25-Nov-2025 14:25:05 Europe/Berlin] Controller: product
+[25-Nov-2025 14:25:05 Europe/Berlin] Action: shop
+[25-Nov-2025 14:25:05 Europe/Berlin] Method: GET
+[25-Nov-2025 14:25:05 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 14:25:05 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:25:12 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:25:12 Europe/Berlin] Timestamp: 2025-11-25 14:25:12
+[25-Nov-2025 14:25:12 Europe/Berlin] Controller: home
+[25-Nov-2025 14:25:12 Europe/Berlin] Action: index
+[25-Nov-2025 14:25:12 Europe/Berlin] Method: GET
+[25-Nov-2025 14:25:12 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 14:25:12 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:25:13 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:25:13 Europe/Berlin] Timestamp: 2025-11-25 14:25:13
+[25-Nov-2025 14:25:13 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 14:25:13 Europe/Berlin] Action: index
+[25-Nov-2025 14:25:13 Europe/Berlin] Method: GET
+[25-Nov-2025 14:25:13 Europe/Berlin] Executing: DashboardController->index()
+[25-Nov-2025 14:25:13 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:25:17 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:25:17 Europe/Berlin] Timestamp: 2025-11-25 14:25:17
+[25-Nov-2025 14:25:17 Europe/Berlin] Controller: product
+[25-Nov-2025 14:25:17 Europe/Berlin] Action: index
+[25-Nov-2025 14:25:17 Europe/Berlin] Method: GET
+[25-Nov-2025 14:25:17 Europe/Berlin] Executing: ProductController->index()
+[25-Nov-2025 14:25:17 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:25:17 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:25:17 Europe/Berlin] Timestamp: 2025-11-25 14:25:17
+[25-Nov-2025 14:25:17 Europe/Berlin] Controller: product
+[25-Nov-2025 14:25:17 Europe/Berlin] Action: create
+[25-Nov-2025 14:25:17 Europe/Berlin] Method: GET
+[25-Nov-2025 14:25:17 Europe/Berlin] Executing: ProductController->create()
+[25-Nov-2025 14:25:17 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:26:39 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:26:39 Europe/Berlin] Timestamp: 2025-11-25 14:26:39
+[25-Nov-2025 14:26:39 Europe/Berlin] Controller: product
+[25-Nov-2025 14:26:39 Europe/Berlin] Action: create
+[25-Nov-2025 14:26:39 Europe/Berlin] Method: GET
+[25-Nov-2025 14:26:39 Europe/Berlin] Executing: ProductController->create()
+[25-Nov-2025 14:26:39 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:29:37 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:29:37 Europe/Berlin] Timestamp: 2025-11-25 14:29:37
+[25-Nov-2025 14:29:37 Europe/Berlin] Controller: product
+[25-Nov-2025 14:29:37 Europe/Berlin] Action: create
+[25-Nov-2025 14:29:37 Europe/Berlin] Method: GET
+[25-Nov-2025 14:29:37 Europe/Berlin] Executing: ProductController->create()
+[25-Nov-2025 14:29:37 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:29:43 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:29:43 Europe/Berlin] Timestamp: 2025-11-25 14:29:43
+[25-Nov-2025 14:29:43 Europe/Berlin] Controller: product
+[25-Nov-2025 14:29:43 Europe/Berlin] Action: store
+[25-Nov-2025 14:29:43 Europe/Berlin] Method: POST
+[25-Nov-2025 14:29:43 Europe/Berlin] Executing: ProductController->store()
+[25-Nov-2025 14:29:43 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:29:43 Europe/Berlin] Timestamp: 2025-11-25 14:29:43
+[25-Nov-2025 14:29:43 Europe/Berlin] Controller: product
+[25-Nov-2025 14:29:43 Europe/Berlin] Action: index
+[25-Nov-2025 14:29:43 Europe/Berlin] Method: GET
+[25-Nov-2025 14:29:43 Europe/Berlin] Executing: ProductController->index()
+[25-Nov-2025 14:32:07 Europe/Berlin] PHP Warning:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in C:\xampp\htdocs\ImpactShop\models\Product.php:30
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\models\Product.php(30): PDOStatement->execute()
+#1 C:\xampp\htdocs\ImpactShop\controllers\ProductController.php(25): Product->getAllProducts()
+#2 C:\xampp\htdocs\ImpactShop\index.php(75): ProductController->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\models\Product.php on line 30
+[25-Nov-2025 14:32:07 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php on line 25
+[25-Nov-2025 14:32:07 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:32:07 Europe/Berlin] Timestamp: 2025-11-25 14:32:07
+[25-Nov-2025 14:32:07 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 14:32:07 Europe/Berlin] Action: index
+[25-Nov-2025 14:32:07 Europe/Berlin] Method: GET
+[25-Nov-2025 14:32:07 Europe/Berlin] Executing: DashboardController->index()
+[25-Nov-2025 14:32:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\ImpactShop\models\Order.php:235
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\controllers\DashboardController.php(27): Order->getStatistics()
+#1 C:\xampp\htdocs\ImpactShop\index.php(75): DashboardController->index()
+#2 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\models\Order.php on line 235
+[25-Nov-2025 14:32:07 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:32:07 Europe/Berlin] Timestamp: 2025-11-25 14:32:07
+[25-Nov-2025 14:32:07 Europe/Berlin] Controller: product
+[25-Nov-2025 14:32:07 Europe/Berlin] Action: index
+[25-Nov-2025 14:32:07 Europe/Berlin] Method: GET
+[25-Nov-2025 14:32:12 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:32:12 Europe/Berlin] Timestamp: 2025-11-25 14:32:12
+[25-Nov-2025 14:32:12 Europe/Berlin] Controller: product
+[25-Nov-2025 14:32:12 Europe/Berlin] Action: shop
+[25-Nov-2025 14:32:12 Europe/Berlin] Method: GET
+[25-Nov-2025 14:32:12 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 14:32:12 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:32:12 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:32:12 Europe/Berlin] Timestamp: 2025-11-25 14:32:12
+[25-Nov-2025 14:32:12 Europe/Berlin] Controller: product
+[25-Nov-2025 14:32:12 Europe/Berlin] Action: shop
+[25-Nov-2025 14:32:12 Europe/Berlin] Method: GET
+[25-Nov-2025 14:32:12 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 14:32:21 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:32:21 Europe/Berlin] Timestamp: 2025-11-25 14:32:21
+[25-Nov-2025 14:32:21 Europe/Berlin] Controller: home
+[25-Nov-2025 14:32:21 Europe/Berlin] Action: index
+[25-Nov-2025 14:32:21 Europe/Berlin] Method: GET
+[25-Nov-2025 14:32:21 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 14:32:21 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:32:28 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:32:28 Europe/Berlin] Timestamp: 2025-11-25 14:32:28
+[25-Nov-2025 14:32:28 Europe/Berlin] Controller: product
+[25-Nov-2025 14:32:28 Europe/Berlin] Action: shop
+[25-Nov-2025 14:32:28 Europe/Berlin] Method: GET
+[25-Nov-2025 14:32:28 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 14:32:28 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:32:33 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:32:33 Europe/Berlin] Timestamp: 2025-11-25 14:32:33
+[25-Nov-2025 14:32:33 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 14:32:33 Europe/Berlin] Action: index
+[25-Nov-2025 14:32:33 Europe/Berlin] Method: GET
+[25-Nov-2025 14:32:33 Europe/Berlin] Executing: DashboardController->index()
+[25-Nov-2025 14:32:33 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:32:34 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:32:34 Europe/Berlin] Timestamp: 2025-11-25 14:32:34
+[25-Nov-2025 14:32:34 Europe/Berlin] Controller: home
+[25-Nov-2025 14:32:34 Europe/Berlin] Action: index
+[25-Nov-2025 14:32:34 Europe/Berlin] Method: GET
+[25-Nov-2025 14:32:34 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 14:32:34 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:36:39 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:36:39 Europe/Berlin] Timestamp: 2025-11-25 14:36:39
+[25-Nov-2025 14:36:39 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 14:36:39 Europe/Berlin] Action: index
+[25-Nov-2025 14:36:39 Europe/Berlin] Method: GET
+[25-Nov-2025 14:36:39 Europe/Berlin] Executing: DashboardController->index()
+[25-Nov-2025 14:36:39 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:47:16 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:47:16 Europe/Berlin] Timestamp: 2025-11-25 14:47:16
+[25-Nov-2025 14:47:16 Europe/Berlin] Controller: home
+[25-Nov-2025 14:47:16 Europe/Berlin] Action: index
+[25-Nov-2025 14:47:16 Europe/Berlin] Method: GET
+[25-Nov-2025 14:47:16 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 14:47:16 Europe/Berlin] Action executed successfully
+[25-Nov-2025 14:47:17 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:47:17 Europe/Berlin] Timestamp: 2025-11-25 14:47:17
+[25-Nov-2025 14:47:17 Europe/Berlin] Controller: product
+[25-Nov-2025 14:47:17 Europe/Berlin] Action: shop
+[25-Nov-2025 14:47:17 Europe/Berlin] Method: GET
+[25-Nov-2025 14:47:17 Europe/Berlin] PHP Parse error:  Unclosed '{' on line 8 in C:\xampp\htdocs\ImpactShop\models\Product.php on line 119
+[25-Nov-2025 14:50:43 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:50:43 Europe/Berlin] Timestamp: 2025-11-25 14:50:43
+[25-Nov-2025 14:50:43 Europe/Berlin] Controller: product
+[25-Nov-2025 14:50:43 Europe/Berlin] Action: shop
+[25-Nov-2025 14:50:43 Europe/Berlin] Method: GET
+[25-Nov-2025 14:50:43 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 14:50:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Product::all() in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php:39
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(75): ProductController->shop()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php on line 39
+[25-Nov-2025 14:50:47 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:50:47 Europe/Berlin] Timestamp: 2025-11-25 14:50:47
+[25-Nov-2025 14:50:47 Europe/Berlin] Controller: product
+[25-Nov-2025 14:50:47 Europe/Berlin] Action: shop
+[25-Nov-2025 14:50:47 Europe/Berlin] Method: GET
+[25-Nov-2025 14:50:47 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 14:50:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Product::all() in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php:39
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(75): ProductController->shop()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php on line 39
+[25-Nov-2025 14:50:51 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:50:51 Europe/Berlin] Timestamp: 2025-11-25 14:50:51
+[25-Nov-2025 14:50:51 Europe/Berlin] Controller: product
+[25-Nov-2025 14:50:51 Europe/Berlin] Action: shop
+[25-Nov-2025 14:50:51 Europe/Berlin] Method: GET
+[25-Nov-2025 14:50:51 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 14:50:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Product::all() in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php:39
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(75): ProductController->shop()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php on line 39
+[25-Nov-2025 14:59:35 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:59:35 Europe/Berlin] Timestamp: 2025-11-25 14:59:35
+[25-Nov-2025 14:59:35 Europe/Berlin] Controller: product
+[25-Nov-2025 14:59:35 Europe/Berlin] Action: shop
+[25-Nov-2025 14:59:35 Europe/Berlin] Method: GET
+[25-Nov-2025 14:59:35 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 14:59:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Product::all() in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php:39
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(75): ProductController->shop()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php on line 39
+[25-Nov-2025 14:59:38 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 14:59:38 Europe/Berlin] Timestamp: 2025-11-25 14:59:38
+[25-Nov-2025 14:59:38 Europe/Berlin] Controller: product
+[25-Nov-2025 14:59:38 Europe/Berlin] Action: shop
+[25-Nov-2025 14:59:38 Europe/Berlin] Method: GET
+[25-Nov-2025 14:59:38 Europe/Berlin] Executing: ProductController->shop()
+[25-Nov-2025 14:59:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Product::all() in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php:39
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(75): ProductController->shop()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php on line 39
+[25-Nov-2025 15:07:50 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:07:50 Europe/Berlin] Timestamp: 2025-11-25 15:07:50
+[25-Nov-2025 15:07:50 Europe/Berlin] Controller: product
+[25-Nov-2025 15:07:50 Europe/Berlin] Action: shop
+[25-Nov-2025 15:07:50 Europe/Berlin] Method: GET
+[25-Nov-2025 15:07:50 Europe/Berlin] FATAL ERROR: Action 'shop' non trouvée dans le contrôleur 'product'
+[25-Nov-2025 15:07:50 Europe/Berlin] Stack trace: #0 {main}
+[25-Nov-2025 15:07:53 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:07:53 Europe/Berlin] Timestamp: 2025-11-25 15:07:53
+[25-Nov-2025 15:07:53 Europe/Berlin] Controller: product
+[25-Nov-2025 15:07:53 Europe/Berlin] Action: shop
+[25-Nov-2025 15:07:53 Europe/Berlin] Method: GET
+[25-Nov-2025 15:07:53 Europe/Berlin] FATAL ERROR: Action 'shop' non trouvée dans le contrôleur 'product'
+[25-Nov-2025 15:07:53 Europe/Berlin] Stack trace: #0 {main}
+[25-Nov-2025 15:08:53 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:08:53 Europe/Berlin] Timestamp: 2025-11-25 15:08:53
+[25-Nov-2025 15:08:53 Europe/Berlin] Controller: product
+[25-Nov-2025 15:08:53 Europe/Berlin] Action: shop
+[25-Nov-2025 15:08:53 Europe/Berlin] Method: GET
+[25-Nov-2025 15:08:53 Europe/Berlin] FATAL ERROR: Action 'shop' non trouvée dans le contrôleur 'product'
+[25-Nov-2025 15:08:53 Europe/Berlin] Stack trace: #0 {main}
+[25-Nov-2025 15:08:53 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:08:53 Europe/Berlin] Timestamp: 2025-11-25 15:08:53
+[25-Nov-2025 15:08:53 Europe/Berlin] Controller: product
+[25-Nov-2025 15:08:53 Europe/Berlin] Action: shop
+[25-Nov-2025 15:08:53 Europe/Berlin] Method: GET
+[25-Nov-2025 15:08:53 Europe/Berlin] FATAL ERROR: Action 'shop' non trouvée dans le contrôleur 'product'
+[25-Nov-2025 15:08:53 Europe/Berlin] Stack trace: #0 {main}
+[25-Nov-2025 15:08:54 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:08:54 Europe/Berlin] Timestamp: 2025-11-25 15:08:54
+[25-Nov-2025 15:08:54 Europe/Berlin] Controller: product
+[25-Nov-2025 15:08:54 Europe/Berlin] Action: shop
+[25-Nov-2025 15:08:54 Europe/Berlin] Method: GET
+[25-Nov-2025 15:08:54 Europe/Berlin] FATAL ERROR: Action 'shop' non trouvée dans le contrôleur 'product'
+[25-Nov-2025 15:08:54 Europe/Berlin] Stack trace: #0 {main}
+[25-Nov-2025 15:08:55 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:08:55 Europe/Berlin] Timestamp: 2025-11-25 15:08:55
+[25-Nov-2025 15:08:55 Europe/Berlin] Controller: home
+[25-Nov-2025 15:08:55 Europe/Berlin] Action: index
+[25-Nov-2025 15:08:55 Europe/Berlin] Method: GET
+[25-Nov-2025 15:08:55 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 15:08:55 Europe/Berlin] Action executed successfully
+[25-Nov-2025 15:08:57 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:08:57 Europe/Berlin] Timestamp: 2025-11-25 15:08:57
+[25-Nov-2025 15:08:57 Europe/Berlin] Controller: product
+[25-Nov-2025 15:08:57 Europe/Berlin] Action: shop
+[25-Nov-2025 15:08:57 Europe/Berlin] Method: GET
+[25-Nov-2025 15:08:57 Europe/Berlin] FATAL ERROR: Action 'shop' non trouvée dans le contrôleur 'product'
+[25-Nov-2025 15:08:57 Europe/Berlin] Stack trace: #0 {main}
+[25-Nov-2025 15:08:58 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:08:58 Europe/Berlin] Timestamp: 2025-11-25 15:08:58
+[25-Nov-2025 15:08:58 Europe/Berlin] Controller: home
+[25-Nov-2025 15:08:58 Europe/Berlin] Action: index
+[25-Nov-2025 15:08:58 Europe/Berlin] Method: GET
+[25-Nov-2025 15:08:58 Europe/Berlin] Executing: HomeController->index()
+[25-Nov-2025 15:08:58 Europe/Berlin] Action executed successfully
+[25-Nov-2025 15:08:59 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:08:59 Europe/Berlin] Timestamp: 2025-11-25 15:08:59
+[25-Nov-2025 15:08:59 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 15:08:59 Europe/Berlin] Action: index
+[25-Nov-2025 15:08:59 Europe/Berlin] Method: GET
+[25-Nov-2025 15:08:59 Europe/Berlin] Executing: DashboardController->index()
+[25-Nov-2025 15:08:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Order::all() in C:\xampp\htdocs\ImpactShop\controllers\DashboardController.php:25
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(75): DashboardController->index()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\controllers\DashboardController.php on line 25
+[25-Nov-2025 15:09:01 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:09:01 Europe/Berlin] Timestamp: 2025-11-25 15:09:01
+[25-Nov-2025 15:09:01 Europe/Berlin] Controller: product
+[25-Nov-2025 15:09:01 Europe/Berlin] Action: shop
+[25-Nov-2025 15:09:01 Europe/Berlin] Method: GET
+[25-Nov-2025 15:09:01 Europe/Berlin] FATAL ERROR: Action 'shop' non trouvée dans le contrôleur 'product'
+[25-Nov-2025 15:09:01 Europe/Berlin] Stack trace: #0 {main}
+[25-Nov-2025 15:12:31 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:12:31 Europe/Berlin] Timestamp: 2025-11-25 15:12:31
+[25-Nov-2025 15:12:31 Europe/Berlin] Controller: product
+[25-Nov-2025 15:12:31 Europe/Berlin] Action: shop
+[25-Nov-2025 15:12:31 Europe/Berlin] Method: GET
+[25-Nov-2025 15:12:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getConnexion() in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(46): ProductController->listProducts()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php on line 9
+[25-Nov-2025 15:12:33 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:12:33 Europe/Berlin] Timestamp: 2025-11-25 15:12:33
+[25-Nov-2025 15:12:33 Europe/Berlin] Controller: product
+[25-Nov-2025 15:12:33 Europe/Berlin] Action: shop
+[25-Nov-2025 15:12:33 Europe/Berlin] Method: GET
+[25-Nov-2025 15:12:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getConnexion() in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(46): ProductController->listProducts()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php on line 9
+[25-Nov-2025 15:14:19 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:14:19 Europe/Berlin] Timestamp: 2025-11-25 15:14:19
+[25-Nov-2025 15:14:19 Europe/Berlin] Controller: product
+[25-Nov-2025 15:14:19 Europe/Berlin] Action: shop
+[25-Nov-2025 15:14:19 Europe/Berlin] Method: GET
+[25-Nov-2025 15:14:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getConnexion() in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(46): ProductController->listProducts()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php on line 9
+[25-Nov-2025 15:14:20 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:14:20 Europe/Berlin] Timestamp: 2025-11-25 15:14:20
+[25-Nov-2025 15:14:20 Europe/Berlin] Controller: product
+[25-Nov-2025 15:14:20 Europe/Berlin] Action: shop
+[25-Nov-2025 15:14:20 Europe/Berlin] Method: GET
+[25-Nov-2025 15:14:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getConnexion() in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(46): ProductController->listProducts()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php on line 9
+[25-Nov-2025 15:14:22 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:14:22 Europe/Berlin] Timestamp: 2025-11-25 15:14:22
+[25-Nov-2025 15:14:22 Europe/Berlin] Controller: product
+[25-Nov-2025 15:14:22 Europe/Berlin] Action: shop
+[25-Nov-2025 15:14:22 Europe/Berlin] Method: GET
+[25-Nov-2025 15:14:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getConnexion() in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(46): ProductController->listProducts()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\controllers\ProductController.php on line 9
+[25-Nov-2025 15:15:06 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:15:06 Europe/Berlin] Timestamp: 2025-11-25 15:15:06
+[25-Nov-2025 15:15:06 Europe/Berlin] Controller: product
+[25-Nov-2025 15:15:06 Europe/Berlin] Action: shop
+[25-Nov-2025 15:15:06 Europe/Berlin] Method: GET
+[25-Nov-2025 15:15:07 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:15:07 Europe/Berlin] Timestamp: 2025-11-25 15:15:07
+[25-Nov-2025 15:15:07 Europe/Berlin] Controller: home
+[25-Nov-2025 15:15:07 Europe/Berlin] Action: index
+[25-Nov-2025 15:15:07 Europe/Berlin] Method: GET
+[25-Nov-2025 15:15:09 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:15:09 Europe/Berlin] Timestamp: 2025-11-25 15:15:09
+[25-Nov-2025 15:15:09 Europe/Berlin] Controller: product
+[25-Nov-2025 15:15:09 Europe/Berlin] Action: shop
+[25-Nov-2025 15:15:09 Europe/Berlin] Method: GET
+[25-Nov-2025 15:15:10 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:15:10 Europe/Berlin] Timestamp: 2025-11-25 15:15:10
+[25-Nov-2025 15:15:10 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 15:15:10 Europe/Berlin] Action: index
+[25-Nov-2025 15:15:10 Europe/Berlin] Method: GET
+[25-Nov-2025 15:15:10 Europe/Berlin] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\ImpactShop\config\database.php on line 9
+[25-Nov-2025 15:15:57 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:15:57 Europe/Berlin] Timestamp: 2025-11-25 15:15:57
+[25-Nov-2025 15:15:57 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 15:15:57 Europe/Berlin] Action: index
+[25-Nov-2025 15:15:57 Europe/Berlin] Method: GET
+[25-Nov-2025 15:15:57 Europe/Berlin] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\ImpactShop\config\database.php on line 8
+[25-Nov-2025 15:15:58 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:15:58 Europe/Berlin] Timestamp: 2025-11-25 15:15:58
+[25-Nov-2025 15:15:58 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 15:15:58 Europe/Berlin] Action: index
+[25-Nov-2025 15:15:58 Europe/Berlin] Method: GET
+[25-Nov-2025 15:15:58 Europe/Berlin] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\ImpactShop\config\database.php on line 8
+[25-Nov-2025 15:16:00 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:16:00 Europe/Berlin] Timestamp: 2025-11-25 15:16:00
+[25-Nov-2025 15:16:00 Europe/Berlin] Controller: home
+[25-Nov-2025 15:16:00 Europe/Berlin] Action: index
+[25-Nov-2025 15:16:00 Europe/Berlin] Method: GET
+[25-Nov-2025 15:16:01 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:16:01 Europe/Berlin] Timestamp: 2025-11-25 15:16:01
+[25-Nov-2025 15:16:01 Europe/Berlin] Controller: product
+[25-Nov-2025 15:16:01 Europe/Berlin] Action: shop
+[25-Nov-2025 15:16:01 Europe/Berlin] Method: GET
+[25-Nov-2025 15:16:05 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:16:05 Europe/Berlin] Timestamp: 2025-11-25 15:16:05
+[25-Nov-2025 15:16:05 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 15:16:05 Europe/Berlin] Action: index
+[25-Nov-2025 15:16:05 Europe/Berlin] Method: GET
+[25-Nov-2025 15:16:05 Europe/Berlin] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\ImpactShop\config\database.php on line 8
+[25-Nov-2025 15:16:12 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:16:12 Europe/Berlin] Timestamp: 2025-11-25 15:16:12
+[25-Nov-2025 15:16:12 Europe/Berlin] Controller: order
+[25-Nov-2025 15:16:12 Europe/Berlin] Action: index
+[25-Nov-2025 15:16:12 Europe/Berlin] Method: GET
+[25-Nov-2025 15:16:13 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, PDOStatement given in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php:156
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(149): require()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 156
+[25-Nov-2025 15:17:16 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:16 Europe/Berlin] Timestamp: 2025-11-25 15:17:16
+[25-Nov-2025 15:17:16 Europe/Berlin] Controller: order
+[25-Nov-2025 15:17:16 Europe/Berlin] Action: index
+[25-Nov-2025 15:17:16 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:16 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, PDOStatement given in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php:156
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(149): require()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 156
+[25-Nov-2025 15:17:17 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:17 Europe/Berlin] Timestamp: 2025-11-25 15:17:17
+[25-Nov-2025 15:17:17 Europe/Berlin] Controller: home
+[25-Nov-2025 15:17:17 Europe/Berlin] Action: index
+[25-Nov-2025 15:17:17 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:18 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:18 Europe/Berlin] Timestamp: 2025-11-25 15:17:18
+[25-Nov-2025 15:17:18 Europe/Berlin] Controller: product
+[25-Nov-2025 15:17:18 Europe/Berlin] Action: shop
+[25-Nov-2025 15:17:18 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:19 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:19 Europe/Berlin] Timestamp: 2025-11-25 15:17:19
+[25-Nov-2025 15:17:19 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 15:17:19 Europe/Berlin] Action: index
+[25-Nov-2025 15:17:19 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:22 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:22 Europe/Berlin] Timestamp: 2025-11-25 15:17:22
+[25-Nov-2025 15:17:22 Europe/Berlin] Controller: home
+[25-Nov-2025 15:17:22 Europe/Berlin] Action: index
+[25-Nov-2025 15:17:22 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:23 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:23 Europe/Berlin] Timestamp: 2025-11-25 15:17:23
+[25-Nov-2025 15:17:23 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 15:17:23 Europe/Berlin] Action: index
+[25-Nov-2025 15:17:23 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:24 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:24 Europe/Berlin] Timestamp: 2025-11-25 15:17:24
+[25-Nov-2025 15:17:24 Europe/Berlin] Controller: product
+[25-Nov-2025 15:17:24 Europe/Berlin] Action: index
+[25-Nov-2025 15:17:24 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:27 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:27 Europe/Berlin] Timestamp: 2025-11-25 15:17:27
+[25-Nov-2025 15:17:27 Europe/Berlin] Controller: home
+[25-Nov-2025 15:17:27 Europe/Berlin] Action: index
+[25-Nov-2025 15:17:27 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:28 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:28 Europe/Berlin] Timestamp: 2025-11-25 15:17:28
+[25-Nov-2025 15:17:28 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 15:17:28 Europe/Berlin] Action: index
+[25-Nov-2025 15:17:28 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:28 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:28 Europe/Berlin] Timestamp: 2025-11-25 15:17:28
+[25-Nov-2025 15:17:28 Europe/Berlin] Controller: order
+[25-Nov-2025 15:17:28 Europe/Berlin] Action: index
+[25-Nov-2025 15:17:28 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, PDOStatement given in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php:156
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(149): require()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 156
+[25-Nov-2025 15:17:30 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:30 Europe/Berlin] Timestamp: 2025-11-25 15:17:30
+[25-Nov-2025 15:17:30 Europe/Berlin] Controller: home
+[25-Nov-2025 15:17:30 Europe/Berlin] Action: index
+[25-Nov-2025 15:17:30 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:31 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:31 Europe/Berlin] Timestamp: 2025-11-25 15:17:31
+[25-Nov-2025 15:17:31 Europe/Berlin] Controller: product
+[25-Nov-2025 15:17:31 Europe/Berlin] Action: shop
+[25-Nov-2025 15:17:31 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:32 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:32 Europe/Berlin] Timestamp: 2025-11-25 15:17:32
+[25-Nov-2025 15:17:32 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 15:17:32 Europe/Berlin] Action: index
+[25-Nov-2025 15:17:32 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:33 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:33 Europe/Berlin] Timestamp: 2025-11-25 15:17:33
+[25-Nov-2025 15:17:33 Europe/Berlin] Controller: home
+[25-Nov-2025 15:17:33 Europe/Berlin] Action: index
+[25-Nov-2025 15:17:33 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:34 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:34 Europe/Berlin] Timestamp: 2025-11-25 15:17:34
+[25-Nov-2025 15:17:34 Europe/Berlin] Controller: product
+[25-Nov-2025 15:17:34 Europe/Berlin] Action: shop
+[25-Nov-2025 15:17:34 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:39 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:17:39 Europe/Berlin] Timestamp: 2025-11-25 15:17:39
+[25-Nov-2025 15:17:39 Europe/Berlin] Controller: order
+[25-Nov-2025 15:17:39 Europe/Berlin] Action: index
+[25-Nov-2025 15:17:39 Europe/Berlin] Method: GET
+[25-Nov-2025 15:17:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, PDOStatement given in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php:156
+Stack trace:
+#0 C:\xampp\htdocs\ImpactShop\index.php(149): require()
+#1 {main}
+  thrown in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 156
+[25-Nov-2025 15:18:38 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:18:38 Europe/Berlin] Timestamp: 2025-11-25 15:18:38
+[25-Nov-2025 15:18:38 Europe/Berlin] Controller: home
+[25-Nov-2025 15:18:38 Europe/Berlin] Action: index
+[25-Nov-2025 15:18:38 Europe/Berlin] Method: GET
+[25-Nov-2025 15:18:39 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:18:39 Europe/Berlin] Timestamp: 2025-11-25 15:18:39
+[25-Nov-2025 15:18:39 Europe/Berlin] Controller: product
+[25-Nov-2025 15:18:39 Europe/Berlin] Action: shop
+[25-Nov-2025 15:18:39 Europe/Berlin] Method: GET
+[25-Nov-2025 15:18:40 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:18:40 Europe/Berlin] Timestamp: 2025-11-25 15:18:40
+[25-Nov-2025 15:18:40 Europe/Berlin] Controller: order
+[25-Nov-2025 15:18:40 Europe/Berlin] Action: index
+[25-Nov-2025 15:18:40 Europe/Berlin] Method: GET
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "first_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "last_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "first_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "last_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "first_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "last_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "first_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "last_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "first_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "last_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "first_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "last_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "first_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "last_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "first_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "last_name" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 185
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:18:40 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\ImpactShop\views\admin\order_list.php on line 190
+[25-Nov-2025 15:21:31 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:21:31 Europe/Berlin] Timestamp: 2025-11-25 15:21:31
+[25-Nov-2025 15:21:31 Europe/Berlin] Controller: order
+[25-Nov-2025 15:21:31 Europe/Berlin] Action: index
+[25-Nov-2025 15:21:31 Europe/Berlin] Method: GET
+[25-Nov-2025 15:21:36 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:21:36 Europe/Berlin] Timestamp: 2025-11-25 15:21:36
+[25-Nov-2025 15:21:36 Europe/Berlin] Controller: product
+[25-Nov-2025 15:21:36 Europe/Berlin] Action: shop
+[25-Nov-2025 15:21:36 Europe/Berlin] Method: GET
+[25-Nov-2025 15:21:38 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:21:38 Europe/Berlin] Timestamp: 2025-11-25 15:21:38
+[25-Nov-2025 15:21:38 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 15:21:38 Europe/Berlin] Action: index
+[25-Nov-2025 15:21:38 Europe/Berlin] Method: GET
+[25-Nov-2025 15:21:39 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:21:39 Europe/Berlin] Timestamp: 2025-11-25 15:21:39
+[25-Nov-2025 15:21:39 Europe/Berlin] Controller: home
+[25-Nov-2025 15:21:39 Europe/Berlin] Action: index
+[25-Nov-2025 15:21:39 Europe/Berlin] Method: GET
+[25-Nov-2025 15:21:40 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:21:40 Europe/Berlin] Timestamp: 2025-11-25 15:21:40
+[25-Nov-2025 15:21:40 Europe/Berlin] Controller: product
+[25-Nov-2025 15:21:40 Europe/Berlin] Action: shop
+[25-Nov-2025 15:21:40 Europe/Berlin] Method: GET
+[25-Nov-2025 15:21:53 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:21:53 Europe/Berlin] Timestamp: 2025-11-25 15:21:53
+[25-Nov-2025 15:21:53 Europe/Berlin] Controller: dashboard
+[25-Nov-2025 15:21:53 Europe/Berlin] Action: index
+[25-Nov-2025 15:21:53 Europe/Berlin] Method: GET
+[25-Nov-2025 15:21:54 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:21:54 Europe/Berlin] Timestamp: 2025-11-25 15:21:54
+[25-Nov-2025 15:21:54 Europe/Berlin] Controller: home
+[25-Nov-2025 15:21:54 Europe/Berlin] Action: index
+[25-Nov-2025 15:21:54 Europe/Berlin] Method: GET
+[25-Nov-2025 15:21:55 Europe/Berlin] === NEW REQUEST ===
+[25-Nov-2025 15:21:55 Europe/Berlin] Timestamp: 2025-11-25 15:21:55
+[25-Nov-2025 15:21:55 Europe/Berlin] Controller: product
+[25-Nov-2025 15:21:55 Europe/Berlin] Action: shop
+[25-Nov-2025 15:21:55 Europe/Berlin] Method: GET
