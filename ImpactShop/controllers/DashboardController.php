@@ -13,39 +13,21 @@ class DashboardController {
     private $db;
     
     public function __construct() {
-        $database = new Database();
-        $this->db = $database->getConnection();
+        $this->db = Database::getConnexion();
     }
     
     /**
      * Afficher le dashboard principal
      */
     public function index() {
-        // Récupérer toutes les commandes pour statistiques
-        $orders = Order::all($this->db);
+        // Récupérer toutes les commandes pour statistiques (returns array)
+        $orders = Order::findAll();
         
         // Calculer les statistiques manuellement
         $stats = $this->calculateStatistics($orders);
         
         // Récupérer les 5 commandes récentes
-        $allOrders = Order::all($this->db);
-        $recentOrders = [];
-        
-        $count = 0;
-        foreach ($allOrders as $order) {
-            if ($count >= 5) break;
-            
-            $customer = $order->getCustomer();
-            $recentOrders[] = [
-                'id' => $order->getId(),
-                'total_amount' => $order->getTotalAmount(),
-                'status' => $order->getStatus(),
-                'created_at' => $order->getCreatedAt(),
-                'customer_name' => ($customer['first_name'] ?? '') . ' ' . ($customer['last_name'] ?? '')
-            ];
-            
-            $count++;
-        }
+        $recentOrders = array_slice($orders, 0, 5);
         
         // Récupérer les 5 produits les plus vendus
         $topProducts = $this->getTopProducts(5);
@@ -73,27 +55,36 @@ class DashboardController {
         $currentMonth = date('Y-m');
         
         foreach ($orders as $order) {
+            $status = $order['status'] ?? '';
+            $totalAmount = floatval($order['total_amount'] ?? 0);
+            $createdAt = $order['created_at'] ?? '';
+            
             // Revenu total (seulement paid)
-            if ($order->getStatus() === 'paid') {
-                $stats['total_revenue'] += $order->getTotalAmount();
+            if ($status === 'paid') {
+                $stats['total_revenue'] += $totalAmount;
             }
             
             // Revenu du mois
-            if ($order->getStatus() === 'paid' && strpos($order->getCreatedAt(), $currentMonth) === 0) {
-                $stats['monthly_revenue'] += $order->getTotalAmount();
+            if ($status === 'paid' && strpos($createdAt, $currentMonth) === 0) {
+                $stats['monthly_revenue'] += $totalAmount;
             }
             
             // Commandes en attente
-            if ($order->getStatus() === 'pending') {
+            if ($status === 'pending') {
                 $stats['pending_orders']++;
             }
         }
         
         // Total clients (requête séparée)
-        $query = "SELECT COUNT(*) as total FROM customers";
-        $stmt = $this->db->prepare($query);
-        $stmt->execute();
-        $stats['total_customers'] = $stmt->fetch(PDO::FETCH_ASSOC)['total'];
+        try {
+            $query = "SELECT COUNT(*) as total FROM customers";
+            $stmt = $this->db->prepare($query);
+            $stmt->execute();
+            $result = $stmt->fetch(PDO::FETCH_ASSOC);
+            $stats['total_customers'] = $result['total'] ?? 0;
+        } catch (Exception $e) {
+            $stats['total_customers'] = 0;
+        }
         
         // Panier moyen
         if ($stats['total_orders'] > 0) {
